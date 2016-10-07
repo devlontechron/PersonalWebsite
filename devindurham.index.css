@@ -17,7 +17,7 @@ body {
 .buttons a{
   color: rgb(255,255,255);
 	font-size: 1.25em;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 h1 {
