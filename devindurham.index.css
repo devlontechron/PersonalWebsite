@@ -4,7 +4,6 @@ body {
    font-family: Helvetica;
    background-size: cover;
    background-position: center center;
-   background-opacity: 0.5;
 
    background-attachment: fixed;
    
@@ -16,7 +15,7 @@ body {
 }
 
 .buttons a{
-  color: rgb(0,0,0);
+  color: rgb(255,255,255);
 	font-size: 1.25em;
 	text-decoration: none;
 }
