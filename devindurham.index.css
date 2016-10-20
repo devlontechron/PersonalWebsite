@@ -13,7 +13,7 @@ body {
 .boxed {
 	background-color: white;
     	width: 300px;
-    	border: 25px solid green;
+    	border: 1px solid black;
     	padding: 25px;
     	margin: 25px;
 }
