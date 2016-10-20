@@ -11,8 +11,11 @@ body {
 }
 
 .boxed {
-  border: 1px solid green ;
-  background: green;
+	width: 300px;
+	border: 25px rgb(200,0,0);
+	padding: 25px;
+        margin: 25px;
+        background: rgb(0,0,0);
 }
 
 
