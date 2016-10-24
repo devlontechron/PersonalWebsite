@@ -20,10 +20,12 @@ body {
 
 
 .buttons {
+	
 
 }
 
 .buttons a{
+	display: inline;
   color: rgb(0,0,0);
 	font-size: 1.25em;
 	text-decoration: underline;
