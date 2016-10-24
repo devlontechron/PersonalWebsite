@@ -1,9 +1,5 @@
 .pics img{
-  margin: auto;
-  float: left;
-  float: top; 
-  text-align: left;
-  vertical-align: top;
-  column-fill: auto;
+  top:100%;
+  left: 100%;
   
 }
