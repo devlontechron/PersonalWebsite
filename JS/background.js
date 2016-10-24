@@ -25,8 +25,7 @@ function myFunction() {
 }
 
 
-
-var background = function(){
+function background(){
   var rando = Math.floor(Math.random()*9);
   return imgArray[rando];
 }
