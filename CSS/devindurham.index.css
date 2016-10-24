@@ -18,8 +18,18 @@ body {
     	margin: auto;
 }
 
-.buttons{
-display: inline;
+.buttons ul{
+	display: inline;
+}
+
+.buttons li{
+	display: inline;
+}
+
+.buttons a{
+	color: rgb(0,0,0);
+	font-size: 1.25em;
+	text-decoration: bold;
 }
 
 
