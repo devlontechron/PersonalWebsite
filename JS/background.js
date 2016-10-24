@@ -28,6 +28,6 @@ function myFunction() {
 
 
 function background(){
-  var rando = Math.floor(Math.random()*9);
+  var rando = Math.floor(Math.random()*imgArray.Length());
   return imgArray[rando];
 }
