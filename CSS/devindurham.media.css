@@ -3,7 +3,8 @@ body{
 
 }
 .pics img {
-  display: block;
+  float: left;
+  
   margin: auto;
   
   
