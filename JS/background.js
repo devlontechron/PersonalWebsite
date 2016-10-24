@@ -23,7 +23,7 @@ var img8 = devlontecron.github.io/media/pictures/tumblr_mnhlogNdIK1ssuam5o1_1280
 
 
 function myFunction() {
-   alert(imgArray[1]);
+   alert("help");
 }
 
 
