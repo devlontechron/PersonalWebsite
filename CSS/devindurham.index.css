@@ -36,14 +36,14 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 .buttons li{
 	float: left;
 }
 
-li a {
+.buttons li a {
     display: block;
     color: white;
     text-align: center;
@@ -51,11 +51,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.buttons li a:hover:not(.active) {
     background-color: #111;
 }
 
-.active {
+.buttons active {
     background-color: purple;
 }
 
