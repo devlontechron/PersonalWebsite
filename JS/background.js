@@ -20,9 +20,10 @@ var img7 = devlontecron.github.io/media/pictures/WP_20160913_14_42_22_Pro.jpg
 var img8 = devlontecron.github.io/media/pictures/tumblr_mnhlogNdIK1ssuam5o1_1280.jpg
 
 
-var test = function(){
-  return "Hello";
+function myFunction() {
+   document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
+
 
 
 var background = function(){
