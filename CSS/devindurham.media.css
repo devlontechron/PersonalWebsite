@@ -1,5 +1,11 @@
+body{
+  background: black;
 
+}
 .pics img {
+  display: block;
+  margin: auto;
+  
   
   
 }
