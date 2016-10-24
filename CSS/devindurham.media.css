@@ -4,10 +4,7 @@ body{
 }
 .pics img {
   float: left;
-  
-  margin: auto;
-  align-content: flex-start;
-  align-items: stretch;
+
   
   
   
