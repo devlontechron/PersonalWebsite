@@ -9,7 +9,12 @@ body {
    
 }
 
-.top{
+.top h1{
+	text-align: left;
+	padding-left: 5%
+}
+
+.top h3{
 	text-align: left;
 	padding-left: 5%
 }
