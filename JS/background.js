@@ -21,7 +21,7 @@ var img8 = devlontecron.github.io/media/pictures/tumblr_mnhlogNdIK1ssuam5o1_1280
 
 
 function myFunction() {
-   document.getElementById("demo").innerHTML = "Paragraph changed.";
+   document.write(imgArray[1]);
 }
 
 
