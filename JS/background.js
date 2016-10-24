@@ -1,3 +1,5 @@
+window.onLoad = myFunction()
+
 var imgArray = [];
 
 imgArray[0] = "media/pictures/WP_20130817_181.jpg";
@@ -21,7 +23,7 @@ var img8 = devlontecron.github.io/media/pictures/tumblr_mnhlogNdIK1ssuam5o1_1280
 
 
 function myFunction() {
-   alert("hello");
+   alert(imgArray[1]);
 }
 
 
