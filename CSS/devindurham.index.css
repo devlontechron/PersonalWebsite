@@ -10,7 +10,11 @@ body {
 }
 
 .top h1{
-	float:left;
+	float:right;
+}
+
+.top h3{
+	float:right;
 }
 	
 
