@@ -11,10 +11,12 @@ body {
 
 .top h1{
 	float:right;
+	float: top;
 }
 
 .top h3{
 	float:right;
+	float: top;
 }
 	
 
