@@ -43,3 +43,11 @@ h3{
 
 
 }
+nav li{
+	
+	 display: inline;
+}
+
+nav ul{
+	 display: inline;
+}
