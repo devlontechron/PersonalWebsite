@@ -24,6 +24,10 @@ body {
     	margin: auto;
 }
 
+.buttons{
+	clear: left;
+}
+
 .buttons ul{
 	display: inline;
 }
