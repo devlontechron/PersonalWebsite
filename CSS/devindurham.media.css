@@ -4,6 +4,7 @@ body{
 }
 .pics img {
   float: left;
+  flex-wrap: wrap;
 
   
   
