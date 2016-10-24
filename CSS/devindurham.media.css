@@ -9,6 +9,11 @@ body{
   padding: 0;
   margin: 0;
   vertical-align: text-top;
+  
+  min-height: 15%;
+  min-width: 15%;
+  max-height: 70%;
+  max-width: 70;
 
 
   
