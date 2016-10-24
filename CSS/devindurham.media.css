@@ -4,7 +4,9 @@ body{
 }
 .pics img {
   float: left;
-  flex-wrap: wrap;
+  height: 70%;
+  width: 70%;
+
 
   
   
