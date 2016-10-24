@@ -4,8 +4,8 @@ body{
 }
 .pics img {
   float: left;
-  height: 30%;
-  width: 30%;
+  height: 25%;
+  width: 25%;
   padding: 0;
   margin: 0;
   vertical-align: text-top;
