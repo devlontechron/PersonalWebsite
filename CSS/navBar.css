@@ -12,7 +12,7 @@
 
 body> .boxed> .top> img{
 	position: relative;
-	top:0;
+	top:-10;
 	height: 15%;
 	width: 15%;
 	padding-right: 25px;
