@@ -28,7 +28,7 @@ body> .boxed> .top> img{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: black;
 }
 
 .buttons li{
@@ -44,7 +44,7 @@ body> .boxed> .top> img{
 }
 
 .buttons li a:hover:not(.active) {
-    background-color: #111;
+    background-color: grey;
 }
 
 .active {
