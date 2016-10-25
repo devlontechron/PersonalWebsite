@@ -9,14 +9,20 @@ body {
    
 }
 
-.top img{
+body> .boxed> .top> img{
+	height: 25%;
+	width: 25%;
 	padding-right: 25px;
-	padding-bottom: 25px;
-	min-height: 160px;
-	min-width: 160px; 
+	min-height: 150px;
+	min-width: 150px; 
 }
-	
 
+body> .boxed> .top> h1{
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+
+}
 
 .boxed {
 	border: 10px solid black;
