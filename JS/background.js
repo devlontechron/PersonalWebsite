@@ -1,4 +1,5 @@
-
+window.onload = function(){
+    document.getElementById("header").innerHTML = "hellosdjhfbdsworld "};
 
 var imgArray = [];
 
@@ -30,5 +31,4 @@ function background(){
 }
 
 
-window.onload = function(){
-    document.getElementById("header").innerHTML = "hellosdjhfbdsworld "};
+
