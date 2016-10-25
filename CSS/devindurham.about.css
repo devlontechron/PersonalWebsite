@@ -11,5 +11,10 @@
 
 body> .aboutBox> h1{
 	  padding: 0px;
-    margin: 0px;
+    margin: 10px;
+}
+
+body> .aboutBox> p{
+	  padding: 0px;
+    margin: 10px;
 }
