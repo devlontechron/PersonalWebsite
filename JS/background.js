@@ -1,5 +1,4 @@
-window.onload = function(){
-    document.getElementById("header").innerHTML = "hello world "};
+
 
 var imgArray = [];
 
@@ -29,3 +28,7 @@ function background(){
   var rando = Math.floor(Math.random()*imgArray.Length());
   return imgArray[rando];
 }
+
+
+window.onload = function(){
+    document.getElementById("header").innerHTML = "hello world "};
