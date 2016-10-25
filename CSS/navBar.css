@@ -7,7 +7,7 @@ body> .boxed> .top> img{
 	min-width: 100px; 
 }
 
-boxed {
+.boxed {
 	 font-family: Helvetica;
 	border: 10px solid black;
     	border-radius: 8px;
