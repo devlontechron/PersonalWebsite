@@ -1,17 +1,18 @@
 .boxed {
-	 font-family: Helvetica;
+	font-family: Helvetica;
 	border: 10px solid black;
     	border-radius: 8px;
 	background-color: white;
-    	width: 67%;
+    	
+	width: 67%;
     	padding: 0px;
 	margin: auto;
 	padding-top: 0px;
 }
 
 body> .boxed> .top> img{
-	height: 5%;
-	width: 5%;
+	height: 15%;
+	width: 15%;
 	padding-right: 25px;
 	min-height: 100px;
 	min-width: 100px; 
