@@ -3,24 +3,6 @@ body{
 	 font-family: Helvetica;
 
 }
-
-.nav {
-	border: 10px solid black;
- 	border-radius: 12px;
-	background-color: white;
-  width: 67%;
-  padding: 25px;
-  margin: auto;
-	text-wrap: top;
-}
-
-.nav img{
-	padding-right: 25px;
-}
-
-
-
-
 .pics img {
   float: left;
   height: 25%;
