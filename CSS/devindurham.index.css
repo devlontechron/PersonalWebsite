@@ -26,7 +26,7 @@ body> .boxed> .top> h1{
 
 .boxed {
 	border: 10px solid black;
-    	border-radius: 8px;
+    	border-radius: 0px;
 	background-color: white;
     	width: 67%;
     	padding: 25px;
