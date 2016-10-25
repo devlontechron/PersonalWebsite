@@ -18,6 +18,11 @@ body> .boxed> .top> img{
 	min-width: 100px; 
 }
 
+body> .boxed> .top> h1{
+	padding: 0px;
+
+}
+
 
 
 .buttons{
