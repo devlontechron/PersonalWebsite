@@ -12,7 +12,7 @@ imgArray[5] = "../media/pictures/WP_20130817_181.jpg" ;
 
     
     
-var rando =5;
+var rando =Math.random()*9;
   
     document.getElementById("header").innerHTML = rando;
     
