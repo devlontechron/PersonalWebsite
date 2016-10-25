@@ -69,7 +69,8 @@ body> .boxed> .top> h1{
 
 div.pdf{
 	margin: auto;
-	padding: 20%;
+	padding-left: 20%;
+	padding-right: 20%;
 
 
 }
