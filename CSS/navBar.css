@@ -11,8 +11,6 @@
 }
 
 body> .boxed> .top> img{
-	position: absolute;
-	top:-10;
 	height: 15%;
 	width: 15%;
 	padding-right: 25px;
