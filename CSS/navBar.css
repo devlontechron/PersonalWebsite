@@ -1,8 +1,8 @@
 body> .boxed> .top> img{
-	height: 15%;
-	width: 15%;
+	height: 10%;
+	width: 10%;
 	padding-right: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 	min-height: 160px;
 	min-width: 160px; 
 }
@@ -13,7 +13,7 @@ body> .boxed> .top> img{
     	border-radius: 8px;
 	background-color: white;
     	width: 67%;
-    	padding: 25px;
+    	padding: 10px;
     	margin: auto;
 }
 
