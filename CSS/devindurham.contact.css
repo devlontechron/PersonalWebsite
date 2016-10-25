@@ -1,3 +1,12 @@
+.contactBox {
+	border: 10px solid black;
+    	border-radius: 8px;
+	background-color: white;
+    	width: 67%;
+    	padding: 0px;
+    	margin: auto;
+}
+
 .address a{
 
   color: rgb(0,0,0);
