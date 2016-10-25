@@ -4,3 +4,14 @@
 	font-size: 1.25em;
 	text-decoration: underline;
 }
+
+body> h1{
+	margin:0;
+	padding-left: 33%;
+}
+
+body>address{
+	margin:0;
+	padding-left: 33%;
+
+}
