@@ -1,4 +1,4 @@
-.boxed .top img{
+boxed .top img{
 	height: 15%;
 	width: 15%;
 	padding-right: 25px;
@@ -8,8 +8,6 @@
 }
 
 .boxed {
-	#top img{
-	}
 	 font-family: Helvetica;
 	border: 10px solid black;
     	border-radius: 8px;
