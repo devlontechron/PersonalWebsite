@@ -31,4 +31,4 @@ function background(){
 
 
 window.onload = function(){
-    document.getElementById("header").innerHTML = "hello world "};
+    document.getElementById("header").innerHTML = "hellosdjhfbdsworld "};
