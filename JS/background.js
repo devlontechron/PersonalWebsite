@@ -18,7 +18,7 @@ var rando =Math.floor(Math.random()*9);
     var x = imgArray[rando];
   
     document.getElementById("header").innerHTML = x;
-     document.body.style.background = "#f11111 url('x')";
+     document.body.style.background = "#f11111 url('../media/pictures/tumblr_mnhlogNdIK1ssuam5o1_1280.jpg')";
 
 
 };
