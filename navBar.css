@@ -27,3 +27,11 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.buttons li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: purple;
+}
