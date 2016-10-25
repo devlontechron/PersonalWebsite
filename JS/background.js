@@ -13,8 +13,9 @@ imgArray[5] = "../media/pictures/WP_20130817_181.jpg" ;
     
     
 var rando =Math.floor(Math.random()*9);
+    var x = imgArray[0];
   
-    document.getElementById("header").innerHTML = rando;
+    document.getElementById("header").innerHTML = x;
     
 
 
