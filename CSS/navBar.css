@@ -1,3 +1,12 @@
+.boxed {
+	 font-family: Helvetica;
+	border: 10px solid black;
+    	border-radius: 8px;
+	background-color: white;
+    	width: 67%;
+    	padding: 10px;
+}
+
 body> .boxed> .top> img{
 	height: 5%;
 	width: 5%;
@@ -7,14 +16,7 @@ body> .boxed> .top> img{
 	min-width: 100px; 
 }
 
-.boxed {
-	 font-family: Helvetica;
-	border: 10px solid black;
-    	border-radius: 8px;
-	background-color: white;
-    	width: 67%;
-    	padding: 10px;
-}
+
 
 .buttons{
 	clear: left;
