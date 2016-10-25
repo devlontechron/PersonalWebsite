@@ -1,5 +1,5 @@
 window.onload = function(){
-    document.getElementById("header").innerHTML = "Duck "
+    
 
 var imgArray = [];
 
@@ -10,6 +10,8 @@ imgArray[3] = "../media/pictures/WP_20150725_12_45_10_Pro.jpg" ;
 imgArray[4] = "../media/pictures/WP_20130817_181.jpg" ;
 imgArray[5] = "../media/pictures/WP_20130817_181.jpg" ;
 
+    
+    document.getElementById("header").innerHTML = "Ducks "
 
   var rando = Math.floor(Math.random()*imgArray.Length());
   return imgArray[rando];
