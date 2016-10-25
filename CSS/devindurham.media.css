@@ -24,7 +24,7 @@ body{
 	background-color: white;
     	width: 33%;
     	margin: 0;
-
+	float: left;
 	padding: 0px;
 }
 
@@ -44,7 +44,7 @@ body{
 	background-color: white;
     	width: 33%;
     	margin: 0;
-
+	float: right'
 	padding: 0px;
 }
 
