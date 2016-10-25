@@ -7,3 +7,9 @@
 	margin-top: 25px;
 	padding: 25px;
 }
+
+
+body> .aboutBox> h1{
+	  padding: 0px;
+    margin: 0px;
+}
