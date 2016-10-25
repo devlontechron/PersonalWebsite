@@ -3,6 +3,49 @@ body{
 	 font-family: Helvetica;
 
 }
+
+.mediaBox {
+	border: 10px solid black;
+    	border-radius: 0px;
+	background-color: white;
+    	width: 67%;
+    	margin: auto;
+	margin-top: 25px;
+	padding: 0px;
+}
+
+.picsBox {
+	border: 10px solid black;
+    	border-radius: 0px;
+	background-color: white;
+    	width: 33%;
+    	margin: auto;
+
+	padding: 0px;
+}
+
+.videoBox {
+	border: 10px solid black;
+    	border-radius: 0px;
+	background-color: white;
+    	width: 33%;
+    	margin: auto;
+
+	padding: 0px;
+}
+
+.writingBox {
+	border: 10px solid black;
+    	border-radius: 0px;
+	background-color: white;
+    	width: 33%;
+    	margin: auto;
+
+	padding: 0px;
+}
+
+
+
 .pics img {
   float: left;
   height: 25%;
@@ -17,3 +60,5 @@ body{
   max-width: 70; 
   
 }
+
+
