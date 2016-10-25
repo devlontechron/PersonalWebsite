@@ -1,9 +1,9 @@
 .contactBox {
 	border: 10px solid black;
-    	border-radius: 8px;
+    	border-radius: 0px;
 	background-color: white;
     	width: 67%;
-    	padding: 0px;
+    	padding: 10px;
     	margin: auto;
 }
 
