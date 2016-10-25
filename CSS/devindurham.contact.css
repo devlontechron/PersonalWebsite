@@ -5,7 +5,7 @@
     	width: 67%;
     	margin: auto;
 	margin-top: 25px;
-	padding: 10px;
+	padding: 0px;
 }
 
 .address a{
@@ -13,14 +13,16 @@
   color: rgb(0,0,0);
 	font-size: 1.25em;
 	text-decoration: underline;
+	
 }
 
 body> .contactBox> h1{
-	  padding: 0px;
+	  padding: 20px;
     margin: 0px;
 }
 
 body>address{
 	margin:auto;
+	padding: 20px;
 
 }
