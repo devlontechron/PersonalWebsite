@@ -14,7 +14,7 @@ imgArray[7] = "../media/pictures/WP_20160913_14_42_22_Pro.jpg" ;
 imgArray[8] = "../media/pictures/tumblr_mnhlogNdIK1ssuam5o1_1280.jpg" ;
     
     
-var rando =Math.floor(Math.random()*imgArray.length());
+var rando =Math.floor(Math.random()*imgArray.Length());
     var x = imgArray[rando];
   
     document.getElementById("header").innerHTML = x;
