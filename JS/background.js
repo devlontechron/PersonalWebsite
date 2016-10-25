@@ -15,7 +15,7 @@ imgArray[5] = "../media/pictures/WP_20130817_181.jpg" ;
 
   var rando = Math.floor(Math.random()*imgArray.Length());
   return imgArray[rando];
-     document.getElementById("test").innerHTML = "1234577890 "
+     document.getElementById("header").innerHTML = "1234577890 "
 
 
 };
