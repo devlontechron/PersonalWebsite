@@ -1,4 +1,6 @@
-window.onLoad = myFunction()
+ window.onload = "background()"{
+        return "hello";
+ }
 
 var imgArray = [];
 
@@ -28,6 +30,7 @@ function myFunction() {
 
 
 function background(){
+   alert("fart");
   var rando = Math.floor(Math.random()*imgArray.Length());
   return imgArray[rando];
 }
