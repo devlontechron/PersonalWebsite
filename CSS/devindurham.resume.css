@@ -1,70 +1,9 @@
-.boxed {
-	font-family: Helvetica;
+.resumeBox {
 	border: 10px solid black;
-    	border-radius: 8px;
+    	border-radius: 0px;
 	background-color: white;
-    	
-	width: 67%;
-    	padding: 0px;
-	margin: auto;
-	padding-top: -5px;
+    	width: 67%;
+    	margin: auto;
+	margin-top: 25px;
+	padding: 0px;
 }
-
-div.top{
-	top: 50%;
-	bottom: 50%
-	display: block;
-	
-}
-
-body> .boxed> .top> img{
-	height: 15%;
-	width: 15%;
-	padding-right: 25px;
-	min-height: 150px;
-	min-width: 150px; 
-}
-
-body> .boxed> .top> h1{
-	padding-top: 10px;
-	margin-top: 0px;
-	margin-bottom: 5px;
-
-}
-
-
-
-.buttons{
-	clear: left;
-}
-
-.buttons ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
-
-.buttons li{
-	float: left;
-}
-
-.buttons li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.buttons li a:hover:not(.active) {
-    background-color: grey;
-}
-
-.active {
-    background-color: purple;
-}
-
-
-
