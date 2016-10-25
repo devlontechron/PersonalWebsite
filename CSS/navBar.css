@@ -10,12 +10,14 @@
 	padding-top: -5px;
 }
 
+
+
 body> .boxed> .top> img{
 	height: 15%;
 	width: 15%;
 	padding-right: 25px;
-	min-height: 100px;
-	min-width: 100px; 
+	min-height: 150px;
+	min-width: 150px; 
 }
 
 body> .boxed> .top> h1{
