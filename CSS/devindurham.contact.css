@@ -15,12 +15,11 @@
 }
 
 body> h1{
-	margin:0;
-	padding-left: 33%;
+	margin:auto;
+	margin-top: 0px;
 }
 
 body>address{
-	margin:0;
-	padding-left: 33%;
+	margin:auto;
 
 }
