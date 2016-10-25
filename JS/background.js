@@ -11,11 +11,11 @@ imgArray[4] = "../media/pictures/WP_20130817_181.jpg" ;
 imgArray[5] = "../media/pictures/WP_20130817_181.jpg" ;
 
     
-    
+   document.getElementById("header").innerHTML = "ytfdciuytcfuj"; 
 
   var rando = Math.floor(Math.random()*imgArray.Length());
     
-document.getElementById("header").innerHTML = "ytfdciuytcfuj";
+
 
 };
 
