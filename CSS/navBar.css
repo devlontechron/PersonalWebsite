@@ -10,7 +10,10 @@
 	padding-top: -5px;
 }
 
-
+div.top{
+	display: block;
+	
+}
 
 body> .boxed> .top> img{
 	height: 15%;
