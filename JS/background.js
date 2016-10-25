@@ -18,7 +18,7 @@ var rando =Math.floor(Math.random()*9);
     var x = imgArray[rando];
   
     document.getElementById("header").innerHTML = x;
-     document.body.style.background = "url('../media/pictures/WP_20160913_14_42_22_Pro.jpg')";
+     document.body.style.background = "#f3f3f3 url('../media/pictures/WP_20160913_14_42_22_Pro.jpg') no-repeat center";
 
 
 };
