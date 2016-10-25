@@ -1,6 +1,4 @@
- window.onload = "background()"{
-        return "hello";
- }
+ window.onload = "background()"
 
 var imgArray = [];
 
@@ -23,10 +21,6 @@ var img6= devlontecron.github.io/media/pictures/WP_20160625_21_30_37_Pro (2).jpg
 var img7 = devlontecron.github.io/media/pictures/WP_20160913_14_42_22_Pro.jpg
 var img8 = devlontecron.github.io/media/pictures/tumblr_mnhlogNdIK1ssuam5o1_1280.jpg
 
-
-function myFunction() {
-   alert("help");
-}
 
 
 function background(){
