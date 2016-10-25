@@ -26,10 +26,10 @@ body> .boxed> .top> h1{
 
 .boxed {
 	border: 10px solid black;
-    	border-radius: 0px;
+    	border-radius: 8px;
 	background-color: white;
     	width: 67%;
-    	padding: 25px;
+    	padding: 0px;
     	margin: auto;
 }
 
