@@ -17,7 +17,7 @@ imgArray[8] = "../media/pictures/tumblr_mnhlogNdIK1ssuam5o1_1280.jpg" ;
 var rando =Math.floor(Math.random()*9);
     var x = imgArray[rando];
   
-     document.body.style.background = "#f3f3f3 url('../media/pictures/WP_20150725_12_45_10_Pro.jpg') no-repeat center fixed";
+     document.body.style.background = "#f3f3f3 url('../media/pictures/WP_20150725_12_45_10_Pro.jpg') no-repeat center fixed size: 100%";
 
 
 };
