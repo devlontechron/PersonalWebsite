@@ -18,7 +18,7 @@ var rando =Math.floor(Math.random()*9);
     var x = imgArray[rando];
   
     document.getElementById("header").innerHTML = x;
-     document.body.style.background = "#f3f3f3 url('x');
+     document.body.style.background = "#f3f3f3 url('x')";
 
 
 };
