@@ -18,18 +18,16 @@ body{
 }
 
 .picsBox {
-	
+	float: left;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
     	width: 33%;
-    	margin: 0;
 	padding: 0px;
 	
 }
 
 .videoBox {
-	float: left;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
@@ -40,12 +38,12 @@ body{
 }
 
 .writingBox {
-	float: left;
+	float: right;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
     	width: 33%;
-    	margin: 0;
+
 	padding: 0px;
 	
 }
