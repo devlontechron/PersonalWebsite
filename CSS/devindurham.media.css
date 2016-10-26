@@ -41,6 +41,12 @@ body{
 
 }
 
+.videoBox>iframe{
+	width: 50%;
+	height: 50%;
+
+}
+
 .writingBox {
 	display: inline-block;
 	border: 5px solid black;
