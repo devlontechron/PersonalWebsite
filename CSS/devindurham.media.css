@@ -18,7 +18,7 @@ body{
 }
 
 .picsBox {
-	float: left;
+	display: inline;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
@@ -29,6 +29,7 @@ body{
 }
 
 .videoBox {
+	display: inline;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
@@ -39,7 +40,7 @@ body{
 }
 
 .writingBox {
-	float: right;
+	display: inline;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
