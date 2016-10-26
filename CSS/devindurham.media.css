@@ -5,7 +5,6 @@ body{
 }
 
 .mediaBox {
-	display: inline;
 	border: 10px solid black;
     	border-radius: 0px;
 	background-color: white;
