@@ -39,7 +39,7 @@ body{
 }
 
 .writingBox {
-	float right;
+	float: right;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
