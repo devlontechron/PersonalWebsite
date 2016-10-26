@@ -1,9 +1,9 @@
 .postsBox {
+	text-align: center;
 	border: 10px solid black;
     	border-radius: 0px;
 	background-color: white;
     	width: 67%;
     	margin: auto;
 	margin-top: 25px;
-	padding: 3%;
 }
