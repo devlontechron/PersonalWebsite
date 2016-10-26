@@ -1,3 +1,13 @@
+body {
+   background-image: url("../media/pictures/WP_20160522_15_17_47_Pro_LI (3).jpg");
+   font-family: Helvetica;
+   background-size: cover;
+   background-position: center center;
+
+   background-attachment: fixed;
+   
+}
+
 .postsBox {
 	text-align: center;
 	border: 10px solid black;
