@@ -1,3 +1,11 @@
+body{
+   background-image: url("../media/pictures/WP_20160913_14_42_22_Pro.jpg");
+   font-family: Helvetica;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
 .resumeBox {
 	border: 10px solid black;
     	border-radius: 0px;
