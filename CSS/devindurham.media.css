@@ -5,6 +5,7 @@ body{
 }
 
 .mediaBox {
+	display: inline;
 	border: 10px solid black;
     	border-radius: 0px;
 	background-color: white;
@@ -18,7 +19,7 @@ body{
 }
 
 .picsBox {
-	display: inline;
+	
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
@@ -29,7 +30,6 @@ body{
 }
 
 .videoBox {
-	display: inline;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
@@ -40,7 +40,6 @@ body{
 }
 
 .writingBox {
-	display: inline;
 	border: 5px solid black;
     	border-radius: 0px;
 	background-color: white;
