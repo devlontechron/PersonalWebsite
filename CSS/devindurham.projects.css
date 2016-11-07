@@ -4,13 +4,14 @@ body{
    background-size: cover;
    background-position: center center;
    background-attachment: fixed;
+	
 }
 
-.projectBoxes> p {
+body > p {
 	padding-left: 20px;
 }
 
-body> .projectBoxes> h3 {
+body> h3 {
 	padding: 20px;
 }
 
