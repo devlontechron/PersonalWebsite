@@ -6,22 +6,8 @@ body{
    background-attachment: fixed;
 }
 
-body> projectsBoxes> h1{
-   padding: 20px;
-   margin: auto;
-}
 
-body> projectsBoxes> h3{
-	 padding: 20px;
-    margin: auto;
-}
-
-body> projectBoxes> p{
-	 padding: 20px;
-    margin: auto;
-}
-
-body> projectBoxes> projectsBox3 {
+body> projectsBox3 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
@@ -31,7 +17,7 @@ body> projectBoxes> projectsBox3 {
 	padding: 0px;
 }
 
-body> projectBoxes> projectsBox2 {
+body> projectsBox2 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
@@ -41,7 +27,7 @@ body> projectBoxes> projectsBox2 {
 	padding: 0px;
 }
 
-body> projectBoxes> projectsBox1 {
+body> projectsBox1 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
