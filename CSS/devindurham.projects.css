@@ -7,7 +7,7 @@ body{
 }
 
 
-body> projectsBox3 {
+body> .projectsBox3 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
@@ -17,7 +17,7 @@ body> projectsBox3 {
 	padding: 0px;
 }
 
-body> projectsBox2 {
+body> .projectsBox2 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
@@ -27,7 +27,7 @@ body> projectsBox2 {
 	padding: 0px;
 }
 
-body> projectsBox1 {
+body> .projectsBox1 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
