@@ -9,14 +9,17 @@ body{
 
 p{
 	padding: 25px;
+	margin: auto;
 }
 
 h3 {
 	padding: 25px;
+	margin: auto;
 }
 
 h1 {
 	padding: 25px;
+	margin: auto;
 }
 
 
@@ -27,7 +30,6 @@ body> .projectBoxes > .projectsBox3 {
 	width: 67%;
 	margin: auto;
 	margin-top: 25px;
-	padding: 25px;
 }
 
 body> .projectBoxes >.projectsBox2 {
