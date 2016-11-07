@@ -5,3 +5,48 @@ body{
    background-position: center center;
    background-attachment: fixed;
 }
+
+body> projectsBoxes> h1{
+   padding: 20px;
+   margin: auto;
+}
+
+body> projectsBoxes> h3{
+	 padding: 20px;
+    margin: auto;
+}
+
+body> projectBoxes> p{
+	 padding: 20px;
+    margin: auto;
+}
+
+body> projectsBox3 {
+   border: 10px solid black;
+   border-radius: 0px;
+	background-color: white;
+   width: 67%;
+   margin: auto;
+	margin-top: 25px;
+	padding: 0px;
+}
+
+body> projectsBox2 {
+   border: 10px solid black;
+   border-radius: 0px;
+	background-color: white;
+   width: 67%;
+   margin: auto;
+	margin-top: 25px;
+	padding: 0px;
+}
+
+body> projectsBox1 {
+   border: 10px solid black;
+   border-radius: 0px;
+	background-color: white;
+   width: 67%;
+   margin: auto;
+	margin-top: 25px;
+	padding: 0px;
+}
