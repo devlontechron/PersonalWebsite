@@ -21,7 +21,7 @@ body> projectBoxes> p{
     margin: auto;
 }
 
-body> projectsBox3 {
+body> projectBoxes> projectsBox3 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
@@ -31,7 +31,7 @@ body> projectsBox3 {
 	padding: 0px;
 }
 
-body> projectsBox2 {
+body> projectBoxes> projectsBox2 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
@@ -41,7 +41,7 @@ body> projectsBox2 {
 	padding: 0px;
 }
 
-body> projectsBox1 {
+body> projectBoxes> projectsBox1 {
    border: 10px solid black;
    border-radius: 0px;
 	background-color: white;
