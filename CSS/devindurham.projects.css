@@ -8,31 +8,31 @@ body{
 
 
 body> .projectsBox3 {
-   border: 10px solid black;
-   border-radius: 0px;
-	background-color: white;
-   width: 67%;
-   margin: auto;
+	border: 10px solid black;
+	border-radius: 0px;
+	Background-color: white;
+	width: 67%;
+	margin: auto;
 	margin-top: 25px;
 	padding: 0px;
 }
 
 body> .projectsBox2 {
-   border: 10px solid black;
-   border-radius: 0px;
+	border: 10px solid black;
+	border-radius: 0px;
 	background-color: white;
-   width: 67%;
-   margin: auto;
+   	width: 67%;
+   	margin: auto;
 	margin-top: 25px;
 	padding: 0px;
 }
 
 body> .projectsBox1 {
-   border: 10px solid black;
-   border-radius: 0px;
+	border: 10px solid black;
+   	border-radius: 0px;
 	background-color: white;
-   width: 67%;
-   margin: auto;
+   	width: 67%;
+   	margin: auto;
 	margin-top: 25px;
 	padding: 0px;
 }
