@@ -7,15 +7,15 @@ body{
 	
 }
 
-body > p {
+p{
 	padding-left: 20px;
 }
 
-body> h3 {
+h3 {
 	padding: 20px;
 }
 
-body> .projectBoxes> h1 {
+h1 {
 	padding-left: 20px;
 }
 
