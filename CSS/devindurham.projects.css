@@ -16,10 +16,21 @@ p{
 	margin-bottom: 15px;
 }
 
+.projectBoxes > h1{
+	font-style: italic;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 0;
+	
 
+}
 
-
-
+.projectBoxes > h3 {
+	padding: 15px;
+	margin: auto;
+	margin-top: 0;
+	text-decoration: underline;
+}
 
 body> .projectBoxes > .projectsBox3 {
 	border: 10px solid black;
@@ -31,21 +42,7 @@ body> .projectBoxes > .projectsBox3 {
 	
 }
 
-body> .projectBoxes > h1{
-	font-style: italic;
-	padding: 10px;
-	margin: auto;
-	margin-bottom: 0;
-	
 
-}
-
-body> .projectBoxes > h3 {
-	padding: 15px;
-	margin: auto;
-	margin-top: 0;
-	text-decoration: underline;
-}
 
 
 body> .projectBoxes >.projectsBox2 {
