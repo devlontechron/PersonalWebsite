@@ -21,11 +21,12 @@ body> .projectBoxes > .projectsBox3 > h1{
 	padding: 10px;
 	margin: auto;
 	margin-bottom: 0;
+	text-decoration: underline;
 	
 
 }
 
-body> .projectBoxes > h3{
+body .projectBoxes .h3{
 	padding: 15px;
 	margin: auto;
 	margin-top: 0;
