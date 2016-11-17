@@ -23,6 +23,11 @@ body{
 	text-decoration: underline;
 	
 }
+.address li{
+	font-size: 1.25em;
+	text-decoration: underline;
+
+}
 
 body> .contactBox> h1{
 	  padding: 20px;
