@@ -19,13 +19,12 @@ body{
 .address a{
 
   color: rgb(0,0,0);
-	font-size: 1.25em;
 	text-decoration: underline;
 	
 }
 .address li{
 	font-size: 1.25em;
-	text-decoration: underline;
+	font-weight: Bold;
 
 }
 
