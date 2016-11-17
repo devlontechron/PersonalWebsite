@@ -16,9 +16,7 @@ body{
 	padding: 0px;
 }
 
-resumeBox. embed{
-	 height: 100%;
-    	width: 100%;
+.resumeBox> embed{
 	margin: auto;
 
 }
