@@ -18,7 +18,7 @@ body {
 	margin-top: 25px;
 }
 
-.body .postsBox .twitter-timeline{
+.postsBox > script{
 	text-align: center;
 	width: 100%;
 	margin-left: 20px;
