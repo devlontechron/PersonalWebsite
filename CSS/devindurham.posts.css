@@ -19,7 +19,7 @@ body {
 }
 
 .postsBox iframe{
-	width: 150%;
-	margin-left: 10px;
+	width: 100%;
+	margin-left: auto;
 }
 
