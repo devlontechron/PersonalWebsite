@@ -56,10 +56,6 @@ body> .boxed> .top> h1{
     text-decoration: none;
 }
 
-.buttons li a:hover:not(.active) {
-    background-color: #111;
-}
-
 .active {
     background-color: purple;
 }
