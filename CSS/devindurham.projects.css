@@ -27,7 +27,7 @@ h1 {
 	padding: 10px;
 	margin: auto;
 	margin-bottom: 0;
-	font-style: italic;
+	
 }
 
 
@@ -38,6 +38,7 @@ body> .projectBoxes > .projectsBox3 {
 	width: 67%;
 	margin: auto;
 	margin-top: 25px;
+	font-style: italic;
 }
 
 body> .projectBoxes >.projectsBox2 {
