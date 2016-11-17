@@ -38,8 +38,13 @@ body> .projectBoxes > .projectsBox3 {
 	width: 67%;
 	margin: auto;
 	margin-top: 25px;
+	
+}
+
+body> .projectBoxes > h1{
 	font-style: italic;
 }
+
 
 body> .projectBoxes >.projectsBox2 {
 	border: 10px solid black;
