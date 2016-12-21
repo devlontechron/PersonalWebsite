@@ -35,5 +35,8 @@ body> .SubBoxes> div{
 
 }
 
+body> .SubBoxes> .div> h3, h4, p{
+	margin-left: 10px;
 
+}
 
