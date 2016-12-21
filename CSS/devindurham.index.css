@@ -24,8 +24,8 @@ body> .boxed> .top> h1{
 }
 
 
-/*
-body> bodySubBoxes>{
+
+body> .bodySubBoxes>{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
@@ -34,7 +34,7 @@ body> bodySubBoxes>{
 	margin-top: 25px;
 
 }
-
+/*
 SubBoxes> .SocialMediaBox{
 	border: 10px solid black;
 	border-radius: 0px;
