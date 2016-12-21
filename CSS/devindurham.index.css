@@ -35,10 +35,9 @@ body> .SubBoxes> div{
 
 }
 
-body> .SubBoxes> .div> h1,h4, h3, p{
+body> .SubBoxes> .div> h1,h4, li, h3, p{
 	margin-left: 15px;
 	margin-right: 15px;
-	padding-right: 15px;
 
 }
 
