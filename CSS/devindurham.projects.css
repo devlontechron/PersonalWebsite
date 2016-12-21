@@ -33,32 +33,12 @@ body .projectBoxes h3{
 	text-decoration: underline;
 }
 
-body> .projectBoxes > .projectsBox3 {
+body> .projectBoxes> div{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
 	width: 67%;
 	margin: auto;
-	margin-top: 25px;
-	
-}
-
-body> .projectBoxes >.projectsBox2 {
-	border: 10px solid black;
-	border-radius: 0px;
-	background-color: white;
-   	width: 67%;
-   	margin: auto;
-	margin-top: 25px;
-
-}
-
-body> .projectBoxes >.projectsBox1 {
-	border: 10px solid black;
-   	border-radius: 0px;
-	background-color: white;
-   	width: 67%;
-   	margin: auto;
 	margin-top: 25px;
 
 }
