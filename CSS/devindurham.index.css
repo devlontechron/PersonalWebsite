@@ -32,7 +32,27 @@ body> .boxed> .top> h1{
     	margin: auto;
 }
 
-body> SubBoxes> div{
+body> SubBoxes> firstBox{
+	border: 10px solid black;
+	border-radius: 0px;
+	Background-color: white;
+	width: 67%;
+	margin: auto;
+	margin-top: 25px;
+
+}
+
+body> SubBoxes> SocialMediaBox{
+	border: 10px solid black;
+	border-radius: 0px;
+	Background-color: white;
+	width: 67%;
+	margin: auto;
+	margin-top: 25px;
+
+}
+
+body> SubBoxes> RecentUpdate{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
