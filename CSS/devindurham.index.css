@@ -32,7 +32,7 @@ body> .boxed> .top> h1{
     	margin: auto;
 }
 
-body> .SubBoxes> .firstBox{
+body> .boxed> .SubBoxes> .firstBox{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
@@ -42,7 +42,7 @@ body> .SubBoxes> .firstBox{
 
 }
 
-body> .SubBoxes> .SocialMediaBox{
+body> .boxed> .SubBoxes> .SocialMediaBox{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
@@ -52,7 +52,7 @@ body> .SubBoxes> .SocialMediaBox{
 
 }
 
-body> .SubBoxes> .RecentUpdate{
+body>.boxed> .SubBoxes> .RecentUpdate{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
