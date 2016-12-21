@@ -23,6 +23,16 @@ a{
 	font-weight: normal;
 }
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 body> .contactBox> h1{
 	  padding: 20px;
     margin: 0px;
