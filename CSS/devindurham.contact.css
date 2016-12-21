@@ -16,13 +16,13 @@ body{
 	padding: 0px;
 }
 
-.address a{
+table> a{
 
   color: rgb(0,0,0);
 	text-decoration: underline;
 	font-weight: normal;
 }
-.address li{
+table> tr{
 	font-size: 1.25em;
 	font-weight: Bold;
 
