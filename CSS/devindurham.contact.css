@@ -16,7 +16,7 @@ body{
 	padding: 0px;
 }
 
-body> .contactBox> table{
+body> .contactBox> table> a{
 
   color: rgb(0,0,0);
 	text-decoration: underline;
