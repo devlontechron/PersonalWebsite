@@ -16,13 +16,11 @@ p{
 	margin-bottom: 15px;
 }
 
-body> .projectBoxes > .projectsBox3 > h1{
+body> .projectBoxes > .projectsBoxTop > h1{
 	font-style: italic;
 	padding: 10px;
 	margin: auto;
-	margin-bottom: 0;
-
-	
+	margin-bottom: 0;	
 
 }
 
