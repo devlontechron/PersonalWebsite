@@ -25,7 +25,7 @@ body> .boxed> .top> h1{
 
 
 
-body> SubBoxes> div{
+body> .SubBoxes> div{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
