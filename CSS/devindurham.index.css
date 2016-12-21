@@ -8,23 +8,6 @@ body {
    
 }
 
-body> .boxed> .top> img{
-	height: 30%;
-	width: 30%;
-	padding-right: 25px;
-	min-height: 150px;
-	min-width: 150px; 
-}
-
-body> .boxed> .top> h1{
-	padding-top: 20px;
-	margin-top: 0px;
-	margin-bottom: 5px;
-
-}
-
-
-
 body> .SubBoxes> div{
 	border: 10px solid black;
 	border-radius: 0px;
