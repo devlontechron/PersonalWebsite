@@ -24,7 +24,7 @@ body> .SubBoxes> .div> h1,h4, h3, p{
 
 }
 
-Body> .SubBoxes> .div>  li{
+Body> .SubBoxes> .div>.ul> li{
 	margin-right: 15px;
 	margin-top: 10px;
 	
