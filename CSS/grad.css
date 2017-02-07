@@ -59,7 +59,6 @@ body> .projectBoxes> div{
   box-shadow: -5px 5px 5px #aaa;
 }
 .face {
- position: absolute;
   backface-visibility: hidden;
 }
 .face.back {
