@@ -46,6 +46,7 @@ body> .projectBoxes> div{
 
 .card {
   position: relative;
+	 float: left;
   padding-bottom: 25%;
   width: 25%;
   text-align: center;
