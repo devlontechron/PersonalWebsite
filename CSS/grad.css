@@ -42,10 +42,9 @@ body> .projectBoxes> div{
 }
 
 
-
-
 .card {
-  position: relative;
+  padding-bottom: 25%;
+  width: 25%;
   text-align: center;
 }
 
