@@ -96,7 +96,7 @@ body> .projectBoxes> div{
 
 .front {
 	background: url(http://davidwalsh.name/demo/dwflip.jpg) 0 0 no-repeat;
-	z-index: 2;
+	z-index: 0;
 }
 
 .back {
