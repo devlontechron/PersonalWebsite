@@ -51,38 +51,3 @@ body> .projectBoxes> .postcard{
 	animation: rotate 5s infinite ease-in-out, background 5s ease-in-out alternate;
 
 }
-
-
-/* card fronts and backs */
-.front,
-.back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  //width: 100%;
- // height: 100%;
-}
-
-.front,
-.back {
-          backface-visibility: hidden;
-          transition: transform 1.3s;
-}
-
-.front {
-  background-color: black;
-}
-
-.back {
-  background-color: red;
-          transform: rotateY(-180deg);
-}
-
-/* hover effect */
-.postcard.effect__hover:hover .front {
-          transform: rotateY(-180deg);
-}
-
-.postcard.effect__hover:hover .back {
-          transform: rotateY(0);
-}
