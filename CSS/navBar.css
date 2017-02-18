@@ -16,6 +16,7 @@ div.top{
 	display: block;
 	background: url("../media/city.jpg");
 	  background-position: right top;
+	text-shadow:1px 2px 4px white;
 	
 }
 
@@ -42,6 +43,7 @@ body> .boxed> .top> h4{
 	font-style: italic;
 	margin: 3px;
 	font-weight: lighter;
+	text-shadow:1px 2px 4px white;
 
 }
 
