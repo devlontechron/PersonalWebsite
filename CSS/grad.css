@@ -41,11 +41,3 @@ body> .projectBoxes> div{
 
 }
 
-body> .projectBoxes> .postcard{
-	border: 10px solid red;
-	border-radius: 0px;
-	Background-color: white;
-	width: 67%;
-	margin: auto;
-	margin-top: 25px;
-}
