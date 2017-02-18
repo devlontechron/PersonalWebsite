@@ -45,9 +45,9 @@ body .projectBoxes h3{
 .card>a {
   display: block;
   margin-bottom: 10px;
-  margin-right:100%;
   padding: 10px;
   padding-left:50%;
+	padding-right:50%;
   width: 20%;
   background: grey;
   border: 1px solid black;
