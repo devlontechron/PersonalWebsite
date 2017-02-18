@@ -21,12 +21,8 @@
 	display: inline-block;
 		
 }
-.topimg{
-	display: inline-block;
-	
-}
 
-.topimg>img{
+img{
 	display: inline-block;
 	height: 15%;
 	width: 15%;
@@ -36,7 +32,7 @@
 
 }
 
-.topimg>h1{
+h1{
 	padding-top: 10px;
 	margin-top: 0px;
 	margin-bottom: 5px;
