@@ -32,7 +32,8 @@ body .projectBoxes h3{
 }
 
 .RSVP{
-    display: inline-block;	
+    display: inline-block;
+	float: right;
 }
 
 
