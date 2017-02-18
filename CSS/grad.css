@@ -67,8 +67,8 @@ img{
   background:#000; 
 }
 .face.back {
-  //display: block;
-  //box-sizing: border-box;
+  display: block;
+  box-sizing: border-box;
   padding: 20px;
   color: black;
   text-align: left;
