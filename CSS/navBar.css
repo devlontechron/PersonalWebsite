@@ -13,7 +13,6 @@
 }
 
 .top{
-	height: 15%;
 	background: url("../media/paper.jpg");
 	background-position: right top;
 	text-shadow:1px 2px 4px white;
@@ -41,7 +40,7 @@ body> .boxed> .top> h1{
 
 
 body> .boxed> .top> h4{
-	padding-top: 20%;
+	padding-top: 10%;
 	bottom: 0px;
 	font-style: italic;
 	margin: 3px;
