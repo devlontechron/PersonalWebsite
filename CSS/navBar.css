@@ -12,7 +12,7 @@
 
 div.top{
 	top: 50%;
-	bottom: 50%
+	
 	display: block;
 	background: url("../media/city.jpg");
 	  background-position: right top;
@@ -23,6 +23,8 @@ body> .boxed> .top> img{
 	height: 15%;
 	width: 15%;
 	padding-right: 25px;
+        min-height: 130px;
+	min-width: 130px; 
 
 }
 
