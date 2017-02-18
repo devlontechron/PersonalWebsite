@@ -44,9 +44,9 @@ body> .projectBoxes> div{
 
 
 .container{
-  width:200px;
+ 
   height:67%;
-  position: relative;
+ // position: relative;
 Background-color: black;
 }
 img{
