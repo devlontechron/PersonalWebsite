@@ -92,7 +92,7 @@ div#flip:target img.back {
 }
 
 .postcard{
-		border: 10px solid black;
+	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
 	width: 67%;
@@ -100,4 +100,9 @@ div#flip:target img.back {
 	margin: auto;
 	margin-top: 25px;
 
+}
+
+.postcard>img{
+	width: 30%;
+	visibility: hidden;
 }
