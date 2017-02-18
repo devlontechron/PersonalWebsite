@@ -19,6 +19,7 @@
 	background-position: right top;
 	text-shadow:1px 2px 4px white;
 	background-size: cover;
+	height: 15%;
 	
 }
 
@@ -42,6 +43,7 @@ body> .boxed> .top> h1{
 
 
 body> .boxed> .top> h4{
+	
 	bottom: 0px;
 	font-style: italic;
 	margin: 3px;
