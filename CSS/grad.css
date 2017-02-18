@@ -48,18 +48,26 @@ body> .projectBoxes> .postcard{
 	width: 67%;
 	margin: auto;
 	margin-top: 25px;
-	animation: rotate 5s infinite ease-in-out, background 5s ease-in-out alternate;
+	transform-style: preserve-3d;
+  	transition: transform 1s;
 
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotateX(0deg) rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(180deg);
-  }
 
+#postcard figure {
+  backface-visibility: hidden;
+}
 
+#postcard .front {
+  background: red;
+}
+#postcard .back {
+  background: blue;
+  transform: rotateY( 180deg );
+}
+
+#card.flipped: hover {
+  transform: rotateY( 180deg );
+}
 
 
