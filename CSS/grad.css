@@ -41,7 +41,9 @@ body> .projectBoxes> div{
 
 }
 
-
+.container{
+	height: 600px;
+}
 
 img{
   margin: auto;
