@@ -42,7 +42,7 @@ body .projectBoxes h3{
 
 }
 
-a {
+postcard>a {
   display: block;
   margin-bottom: 10px;
   padding: 10px;
@@ -55,10 +55,10 @@ a {
   text-decoration: none;
 }
 
-a.unflip { display: none; }
+postcard>a.unflip { display: none; }
 div.card { position: relative; }
 
-img { 
+postcard>img { 
   position: absolute;
   width: 190px;
   height: 265px;
@@ -69,9 +69,9 @@ img {
   transition: all 1s;
 }
 
-img.front { z-index: 1; }
+postcard>img.front { z-index: 1; }
 
-img.back, div#flip:target img.front {
+postcard>img.back, div#flip:target img.front {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   -o-transform: rotateY(-180deg);
