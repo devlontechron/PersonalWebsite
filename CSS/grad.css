@@ -103,6 +103,6 @@ div#flip:target img.back {
 }
 
 .dummy>img{
-	width: 70%;
+	width: 75%;
 	visibility: hidden;
 }
