@@ -48,7 +48,7 @@ body> .projectBoxes> .postcard{
 	width: 67%;
 	margin: auto;
 	margin-top: 25px;
-	animation: rotate 1.4s infinite ease-in-out, background 1.4s infinite ease-in-out alternate;
+	animation: rotate 5s infinite ease-in-out, background 5s ease-in-out alternate;
 
 }
 
