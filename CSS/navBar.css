@@ -23,8 +23,8 @@ body> .boxed> .top> img{
 	height: 15%;
 	width: 15%;
 	padding-right: 25px;
-	min-height: 130px;
-	min-width: 130px; 
+	//min-height: 130px;
+	//min-width: 130px; 
 }
 
 body> .boxed> .top> h1{
