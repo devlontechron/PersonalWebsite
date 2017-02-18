@@ -41,4 +41,17 @@ body> .projectBoxes> div{
 
 }
 
+body> .projectBoxes> postcard{
+	border: 10px solid black;
+	border-radius: 0px;
+	Background-color: white;
+	width: 67%;
+	margin: auto;
+	margin-top: 25px;
+	transform: rotateY(180deg);
+
+}
+
+
+
 
