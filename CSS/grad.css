@@ -104,6 +104,6 @@ div#flip:target img.back {
 
 .dummy{
 	width: 50%;
-	height: 500px;
+	height: 20%;
 	visibility: hidden;
 }
