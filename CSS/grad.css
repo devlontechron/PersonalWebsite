@@ -102,7 +102,7 @@ div#flip:target img.back {
 
 }
 
-.postcard>img{
+.dummy{
 	width: 50%;
 	visibility: hidden;
 }
