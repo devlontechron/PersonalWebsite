@@ -15,6 +15,7 @@ div.top{
 	bottom: 50%
 	display: block;
 	background: url("../media/city.jpg");
+	  background-position: right top;
 	
 }
 
