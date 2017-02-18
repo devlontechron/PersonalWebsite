@@ -41,7 +41,7 @@ body> .projectBoxes> div{
 
 }
 
-body> .projectBoxes> postcard{
+body> .projectBoxes> .postcard{
 	border: 10px solid green;
 	border-radius: 0px;
 	Background-color: white;
