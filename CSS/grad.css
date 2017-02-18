@@ -69,7 +69,7 @@ div.card { position: relative; }
   transition: all 1s;
 }
 
-.card>.img.front { z-index: 1; }
+.card>img.front { z-index: 1; }
 
 postcard>img.back, div#flip:target img.front {
   -webkit-transform: rotateY(-180deg);
