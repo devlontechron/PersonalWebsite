@@ -36,6 +36,11 @@ body .projectBoxes h3{
 .RSVP{
     display: inline-block;
 	float: right;
+	border: 10px solid black;
+	border-radius: 0px;
+	Background-color: white;
+	width: 50%;
+	margin-top: 25px;
 }
 
 
