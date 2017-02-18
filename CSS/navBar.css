@@ -22,7 +22,7 @@
 }
 
 body> .boxed> .top> img{
-	position: absolute;
+	position: relative;
 	bottom: 0px;
 	height: 15%;
 	width: 15%;
@@ -40,7 +40,7 @@ body> .boxed> .top> h1{
 
 
 body> .boxed> .top> h4{
-	position: absolute;
+	position: relative;
 	bottom: 0px;
 	padding-top: 9%;
 	font-style: italic;
