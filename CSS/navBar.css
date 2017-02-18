@@ -19,6 +19,9 @@
 	background-size: cover;
 		
 }
+.topimg{
+	width: 20%;
+}
 
 .topimg>img{
 	display: inline-block;
