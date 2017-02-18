@@ -21,7 +21,7 @@
 }
 
 .topimg>img{
-	position: bottom;
+	display: inline-block;
 	height: 15%;
 	width: 15%;
 	min-height: 125px;
