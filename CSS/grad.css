@@ -47,6 +47,11 @@ body> .projectBoxes> div{
   height:280px;
   position: relative;
 }
+
+img{
+  width: 30%;
+}
+
 .card{
   text-align:center;
 }
