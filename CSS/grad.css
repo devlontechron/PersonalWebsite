@@ -49,8 +49,8 @@ body> .projectBoxes> div{
 }
 
 img{
+	margin: auto;
   width: 67%;
-  margin: auto;
 }
 
 .card{
