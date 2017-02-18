@@ -94,7 +94,7 @@ div#flip:target img.back {
 .postcard{
 	border: 10px solid black;
 	border-radius: 0px;
-	Background-color: white;
+	Background-color: black;
 	width: 67%;
 	
 	margin: auto;
