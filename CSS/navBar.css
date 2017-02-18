@@ -12,7 +12,7 @@
 
 div.top{
 	top: 50%;
-	
+	bottom: 50%
 	display: block;
 	background: url("../media/city.jpg");
 	  background-position: right top;
@@ -35,13 +35,7 @@ body> .boxed> .top> h1{
 
 }
 
-body> .boxed> .top> h4{
-	padding-top: 24px;
-	font-style: italic;
-	margin: 3px;
-	font-weight: lighter;
 
-}
 
 
 .buttons{
