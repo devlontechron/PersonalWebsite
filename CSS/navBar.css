@@ -24,8 +24,10 @@
 
 body> .boxed> .top> img{
 	position: bottom;
-	height: 5%;
+	height: 10%;
+	width: 10%;
 	min-height: 150px;
+	min-width: 150px;
 	padding-right: 25px;
 
 }
