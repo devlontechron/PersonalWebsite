@@ -42,7 +42,11 @@ body> .projectBoxes> div{
 }
 
 
-
+.container{
+  width:400px;
+  height:280px;
+  position: relative;
+}
 .card{
   text-align:center;
 }
