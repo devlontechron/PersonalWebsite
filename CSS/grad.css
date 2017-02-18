@@ -65,7 +65,7 @@ body> .projectBoxes> div{
   display: block;
   box-sizing: border-box;
   padding: 20px;
-  color: white;
+  color: black;
   text-align: left;
   background-color: #333;
 }
