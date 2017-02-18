@@ -31,15 +31,7 @@ body .projectBoxes h3{
 	text-decoration: underline;
 }
 
-body> .projectBoxes> div{
-	border: 10px solid black;
-	border-radius: 0px;
-	Background-color: white;
-	width: 67%;
-	margin: auto;
-	margin-top: 25px;
 
-}
 
 dummy{
 	border: 10px solid red;
