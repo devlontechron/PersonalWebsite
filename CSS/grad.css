@@ -97,12 +97,13 @@ div#flip:target img.back {
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: black;
-	width: 67%;
+	width: auto;
 	
 	margin-left: 0;
 	margin-top: 25px;
 
 }
+
 
 .dummy>img{
 	width: 75%;
