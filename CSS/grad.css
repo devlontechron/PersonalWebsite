@@ -42,7 +42,7 @@ body> .projectBoxes> div{
 }
 
 .container{
-	height: 600px;
+	 position: relative;
 }
 
 img{
