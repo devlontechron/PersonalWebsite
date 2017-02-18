@@ -45,6 +45,7 @@ body .projectBoxes h3{
 
 
 .info{
+	float: left;
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
@@ -53,6 +54,18 @@ body .projectBoxes h3{
 	margin-top: 25px;
 
 }
+
+.party{
+	float: left;
+	border: 10px solid black;
+	border-radius: 0px;
+	Background-color: white;
+	width: 67%;
+	margin: auto;
+	margin-top: 25px;
+
+}
+
 
 .card>a {
   display: block;
