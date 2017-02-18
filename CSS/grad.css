@@ -43,13 +43,14 @@ body> .projectBoxes> div{
 
 
 .container{
-  width:400px;
-  height:280px;
+ 	width: 200px;
+	height: 500px
   position: relative;
 }
 
 img{
-  width: 50%;
+  width: 67%;
+  margin: auto;
 }
 
 .card{
