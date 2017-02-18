@@ -45,22 +45,24 @@ body .projectBoxes h3{
 
 
 .info{
+	  display: inline-block;
 	float: left;
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
-	width: 67%;
+	width: 52%;
 	margin: auto;
 	margin-top: 25px;
 
 }
 
 .party{
+	  display: inline-block;
 	float: left;
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
-	width: 67%;
+	width: 52%;
 	margin: auto;
 	margin-top: 25px;
 
