@@ -40,7 +40,7 @@ body> .boxed> .top> h1{
 
 
 body> .boxed> .top> h4{
-	
+	position: absolute;
 	bottom: 0px;
 	font-style: italic;
 	margin: 3px;
