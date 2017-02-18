@@ -5,6 +5,8 @@
 	background-size: cover;
 	background-position: right;
     	background: url("../media/city.jpg") gray;
+	background-position: right;
+	background-repeat: no-repeat;
 	width: 97%;
     	padding: 0px;
 	margin: auto;
