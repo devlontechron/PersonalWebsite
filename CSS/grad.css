@@ -60,8 +60,8 @@ body .projectBoxes h3{
 
 .card>img { 
   position: absolute;
-  width: 190px;
-  height: 265px;
+  width: 10%;
+  height: 10%;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
