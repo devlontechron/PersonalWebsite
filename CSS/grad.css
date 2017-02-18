@@ -97,7 +97,7 @@ div#flip:target img.back {
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: black;
-	width: auto;
+	width: 50%;
 	
 	margin-left: 0;
 	margin-top: 25px;
