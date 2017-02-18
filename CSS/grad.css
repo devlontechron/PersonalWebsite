@@ -57,7 +57,7 @@ body> .projectBoxes> .postcard{
     transform: rotateX(0deg) rotateY(0deg);
   }
   100% {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg) rotateY(180deg);
   }
 
 
