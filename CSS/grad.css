@@ -69,7 +69,16 @@ body .projectBoxes h3{
 	margin-top: 25px;
 
 }
+.venmo.img{
+	width: 25%;
+	height: 25%;
+}
 
+.info{
+	width:25%;
+	height:25%;
+}
+	
 
 .party{
 	  display: inline-block;
