@@ -107,56 +107,46 @@ body .projectBoxes h3{
 }
 
 
-.card>a {
-  display: block;
-  margin-bottom: 10px;
-  padding: 10px;
-  padding-left:45%;
-  padding-right:45%;
-  width: 10%;
-	
-  background: grey;
-  border: 1px solid black;
-  border-radius: 0px;
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
 }
 
-.card>a.unflip { display: none; }
-.card>div.card { position: relative; }
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
 
-.card>img { 
-  position: absolute;
-  width: 50%;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  -ms-transition: all 1s;
-  transition: all 1s;
+	position: relative;
 }
 
-.card>img.front { z-index: 1; }
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
 
-.card>img.back, div#flip:target img.front {
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  -o-transform: rotateY(-180deg);
-  -ms-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
-div#flip:target a.flip { display: none; }
-div#flip:target a.unflip { display: block; }
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
 
-div#flip:target img.back {
-  -webkit-transform: rotateY(0deg);
-  -moz-transform: rotateY(0deg);
-  -o-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  z-index: 1;
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
 }
 
 .postcard{
@@ -170,8 +160,3 @@ div#flip:target img.back {
 	margin-top: 25px;
 }
 
-
-.dummy>img{
-	width: 101%;
-	visibility: hidden;
-}
