@@ -52,9 +52,9 @@ body .projectBoxes h3{
 	Background-color: white;
 	width: 20%;
 	height: 20%;
-	margin: auto;
 	margin-top: 25px;
 	margin-right: 5%;
+	margin-left: 5%;
 	Background-color: rgb(51,0,111);
 	
 
@@ -68,9 +68,9 @@ body .projectBoxes h3{
 	Background-color: rgb(61,149,206);
 	width: 20%;
 	height: 20%;
-	margin: auto;
 	margin-top: 25px;
 	margin-left: 5%;
+	margin right: 5%
 
 }
 .venmo img{
