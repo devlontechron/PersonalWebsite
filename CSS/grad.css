@@ -76,13 +76,16 @@ body .projectBoxes h3{
 .venmo img{
 	width: 50%;
 	height: 50%;
-	margin: auto;
+	margin-left: 10%;
+	margin-right: 10%
 }
 
 .info img{
 	width:50%;
 	height:50%;
-	margin: auto;
+	margin-left: 10%;
+	margin-right: 10%
+	
 }
 	
 
