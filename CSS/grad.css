@@ -50,7 +50,8 @@ body .projectBoxes h3{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: white;
-	width: 52%;
+	width: 25%;
+	height: 25%;
 	margin: auto;
 	margin-top: 25px;
 
@@ -61,8 +62,9 @@ body .projectBoxes h3{
 	float: left;
 	border: 10px solid black;
 	border-radius: 0px;
-	Background-color: white;
-	width: 52%;
+	Background-color: rgb(61,149,206);
+	width: 25%;
+	height: 25%;
 	margin: auto;
 	margin-top: 25px;
 
