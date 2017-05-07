@@ -116,8 +116,8 @@ body .projectBoxes h3{
 	}
 
 .flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
+	width: 50%;
+	height: 50%;
 }
 
 /* flip speed goes here */
@@ -165,8 +165,5 @@ body .projectBoxes h3{
 
 }
 
-.postcard img{
-width: 200%;
-	height: 100%;
-}
+
 
