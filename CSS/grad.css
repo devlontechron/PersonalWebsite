@@ -54,6 +54,7 @@ body .projectBoxes h3{
 	height: 25%;
 	margin: auto;
 	margin-top: 25px;
+	margin-right: 50%;
 
 }
 
@@ -67,6 +68,7 @@ body .projectBoxes h3{
 	height: 25%;
 	margin: auto;
 	margin-top: 25px;
+	margin-left: 50%;
 
 }
 .venmo img{
