@@ -115,10 +115,7 @@ body .projectBoxes h3{
 		transform: rotateY(180deg);
 	}
 
-.flip-container, .front, .back {
-	width: 50%;
-	height: 50%;
-}
+
 
 /* flip speed goes here */
 .flipper {
@@ -159,7 +156,7 @@ body .projectBoxes h3{
 	margin-left: 0;
 	margin-top: 25px;
 }
-.flipper{
+.postcard img{
 	width: 50%;
 	height: 50%;
 
