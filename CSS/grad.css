@@ -162,7 +162,7 @@ body .projectBoxes h3{
 
 }
 
-.flip-container img{
+.flip-container dummy{
 	visibility: hidden;
 	margin: -50%;
 
