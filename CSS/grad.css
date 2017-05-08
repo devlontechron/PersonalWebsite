@@ -128,7 +128,7 @@ body .projectBoxes h3{
 .front, .back {
 	backface-visibility: hidden;
 
-	
+	position: absolute;
 	top: 0;
 	left: 0;
 }
