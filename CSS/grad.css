@@ -129,8 +129,8 @@ body .projectBoxes h3{
 	backface-visibility: hidden;
 
 	position: absolute;
-	top: -100%;
-	left: -100%;
+	top: 0;
+	left: 0;
 }
 
 /* front pane, placed above back */
