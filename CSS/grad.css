@@ -162,8 +162,9 @@ body .projectBoxes h3{
 
 }
 
-.postcard>dummy{
+.postcard.dummy{
 	visibility: hidden;
+	margin: -50%;
 
 }
 
