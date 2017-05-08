@@ -146,7 +146,7 @@ body .projectBoxes h3{
 	transform: rotateY(180deg);
 }
 
-.flipper{
+postcard{
 	 
 	border: 10px solid black;
 	border-radius: 0px;
