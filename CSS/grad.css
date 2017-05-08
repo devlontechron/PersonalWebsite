@@ -106,6 +106,20 @@ body .projectBoxes h3{
 
 }
 
+.postcard{
+	  display: inline-block;
+	float: left;
+	border: 10px solid black;
+	border-radius: 0px;
+	Background-color: white;
+	width: 52%;
+	margin: auto;
+	margin-top: 25px;
+	background-color: rgb(51,0,111);
+	color: rgb(232,211,162);
+
+}
+
 .f1_container {
   position: relative;
   margin: 10px auto;
