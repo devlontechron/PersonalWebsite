@@ -147,7 +147,7 @@ body .projectBoxes h3{
 }
 
 .postcard{
-	   display: inline-block;
+	 
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: black;
@@ -166,7 +166,7 @@ body .projectBoxes h3{
 .dummy img{
 	width: 0%;
 	height: 0%;
-	padding-bottom: 0%;
+	padding-bottom: 50%;
 }
 
 .flipper img{
