@@ -106,11 +106,11 @@ body .projectBoxes h3{
 
 }
 
-#f1_container {
+.f1_container {
   position: relative;
   margin: 10px auto;
-  width: 700px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   z-index: 1;
 }
 #f1_container {
