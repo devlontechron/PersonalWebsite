@@ -161,3 +161,8 @@ body .projectBoxes h3{
 
 }
 
+.dummy{
+	margin-top: -100%;
+	padding-top: -100%;
+}
+
