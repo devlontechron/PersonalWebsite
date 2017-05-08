@@ -146,7 +146,7 @@ body .projectBoxes h3{
 	transform: rotateY(180deg);
 }
 
-.flip-container{
+.flipper{
 	 
 	border: 10px solid black;
 	border-radius: 0px;
