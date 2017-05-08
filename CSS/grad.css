@@ -149,7 +149,7 @@ body .projectBoxes h3{
 	 height: 50%;
 	border: 10px solid black;
 	border-radius: 0px;
-	Background-color: blue;
+	Background-color: black;
 	width: 52%;
 	height: 100%;
 	margin-left: 0;
@@ -159,13 +159,11 @@ body .projectBoxes h3{
 	width: 100%;
 	height: 100%;
 	margin-top: -100%;
-
+	padding: -100%;
 }
 
 .dummy img{
 	width: 100%;
 	height: 100%;
-	margin-top: -100%;
-	padding-top: -100%;
 }
  
