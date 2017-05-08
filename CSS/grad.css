@@ -125,7 +125,7 @@ body .projectBoxes h3{
 }
 
 /* hide back of pane during swap */
-.front, .back {
+.front, .back img {
 	backface-visibility: hidden;
 
 	position: absolute;
