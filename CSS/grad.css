@@ -125,7 +125,7 @@ body .projectBoxes h3{
 }
 
 /* hide back of pane during swap */
-.front, .back img {
+.front, .back {
 	backface-visibility: hidden;
 
 	position: absolute;
@@ -146,7 +146,7 @@ body .projectBoxes h3{
 }
 
 .postcard{
-	 
+	 height: 50%;
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: black;
