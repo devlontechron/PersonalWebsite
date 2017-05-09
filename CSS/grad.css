@@ -117,8 +117,8 @@ projectBoxes{
 	border: 10px solid black;
 	border-radius: 0px;
 	Background-color: black;
-	width: 25%;
-	height: 50%;
+	width: 52%;
+	min-height: 600px;
 	margin: auto;
 	margin-top: 25px;
 	 position:relative;
