@@ -150,8 +150,8 @@ body .projectBoxes h3{
 
 .card>img.back, div#flip:target img.front {
   -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  z-index: 0;
+   z-index: 0;
+ 
 }
 
 div#flip:target a.flip { display: none; }
@@ -159,7 +159,6 @@ div#flip:target a.unflip { display: block; }
 
 div#flip:target img.back {
   -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
   z-index: 1;
 }
 
