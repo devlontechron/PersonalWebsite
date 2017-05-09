@@ -34,7 +34,7 @@ body .projectBoxes h3{
 	
 }
 
-projectBoxes{
+.projectBoxes{
 		width: 25px;
 	height: 25px;
 }
