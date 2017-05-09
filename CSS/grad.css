@@ -112,7 +112,7 @@ body .projectBoxes h3{
 
 }
 
-.postcard{
+postcard{
 	float: left;
 	border: 10px solid black;
 	border-radius: 0px;
