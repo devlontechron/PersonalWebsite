@@ -35,8 +35,8 @@ body .projectBoxes h3{
 }
 
 projectBoxes{
-		width: auto;
-	height: auto;
+		width: 25px;
+	height: 25px;
 }
 
 .RSVP{
@@ -118,7 +118,7 @@ projectBoxes{
 	border-radius: 0px;
 	Background-color: black;
 	width: 52%;
-	min-height: 600px;
+	min-height: 50%;
 	margin: auto;
 	margin-top: 25px;
 	 position:relative;
