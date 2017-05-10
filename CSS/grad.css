@@ -152,9 +152,9 @@ body .projectBoxes h3{
 	transform-style: preserve-3d;
 }
 
-.postcard>img{
-width: 50%;
-	height: 50%;
+.postcard img{
+width: 10%;
+	height: 10%;
 }
 
 
