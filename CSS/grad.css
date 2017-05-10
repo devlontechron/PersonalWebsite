@@ -113,8 +113,8 @@ body .projectBoxes h3{
 }
 
 
-.card-container {
-  height: 500px;
+card-container {
+  height: 50%;
   perspective: 600;
   position: relative;
   width: 50%;
