@@ -113,54 +113,32 @@ body .projectBoxes h3{
 }
 
 
-.card>a {
-  display: block;
-  margin-bottom: 10px;
-  padding: 10px;
-  padding-left:45%;
-  padding-right:45%;
-  width: 10%;
-	
-  background:blue; 
-  border: 1px solid black;
-  border-radius: 0px;
-  color: rgb(232,211,162);
-  text-transform: uppercase;
-  text-decoration: none;
+.card-container {
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
 }
-
-.card>a.unflip { 
-	display: none; 
-}
-
-.card>div.card { 
-	position: relative; 
-}
-
-.card>img { 
+.card {
+  height: 100%;
   position: absolute;
-  width: 50%;
-  transition: all 1s;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.card .back {
+  transform: rotateY(180deg);
 }
 
-.card>img.front { 
-	z-index: 1;
-}
-
-.card>img.back, div#flip:target img.front {
-transform: rotateY(-180deg);
-   z-index: 0;
- 
-}
-
-div#flip:target a.flip { display: none; }
-div#flip:target a.unflip { display: block; }
-
-div#flip:target img.back {
-
-	transform: rotateY(0deg);
-  z-index: 1;
-}
 
 .postcard{
 	   display: inline-block;
@@ -171,13 +149,9 @@ div#flip:target img.back {
 	height: 100%;
 	margin-left: 0;
 	margin-top: 25px;
+	transform-style: preserve-3d;
 }
 
-
-.dummy>img{
-	width: 101%;
-	visibility: hidden;
-}
 
 
 
