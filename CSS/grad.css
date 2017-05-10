@@ -132,27 +132,22 @@ body .projectBoxes h3{
   text-decoration: none;
 }
 
-.card>a.unflip { display: none; }
-.card>div.card { position: relative; }
+.card>a.unflip { 
+	display: none; 
+}
+.card>div.card {
+	position: relative;
+}
 
 .card>img { 
   position: absolute;
   width: 50%;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  -ms-transition: all 1s;
   transition: all 1s;
 }
 
 .card>img.front { z-index: 1; }
 
 .card>img.back, div#flip:target img.front {
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  -o-transform: rotateY(-180deg);
-  -ms-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
   z-index: 0;
 }
 
@@ -160,10 +155,6 @@ div#flip:target a.flip { display: none; }
 div#flip:target a.unflip { display: block; }
 
 div#flip:target img.back {
-  -webkit-transform: rotateY(0deg);
-  -moz-transform: rotateY(0deg);
-  -o-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
   transform: rotateY(0deg);
   z-index: 1;
 }
