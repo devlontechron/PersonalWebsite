@@ -109,6 +109,7 @@ body .projectBoxes h3{
 	margin-top: 25px;
 	background-color: rgb(51,0,111);
 	color: rgb(232,211,162);
+	font-size: 200%;
 
 }
 
@@ -125,10 +126,10 @@ body .projectBoxes h3{
   padding-right:45%;
   width: 10%;
 	
-  background: grey;
+  background:  rgb(51,0,111);
   border: 1px solid black;
   border-radius: 0px;
-  color: white;
+  color: rgb(232,211,162);
   text-transform: uppercase;
   text-decoration: none;
 }
