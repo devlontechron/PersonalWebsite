@@ -121,7 +121,7 @@ body .projectBoxes h3{
   padding-right:45%;
   width: 10%;
 	
-  background: gray ; 
+  background: brown ; 
   border: 1px solid black;
   border-radius: 0px;
   color: rgb(232,211,162);
@@ -140,8 +140,8 @@ body .projectBoxes h3{
 .card>img { 
   position: absolute;
   width: 50%;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 .card>img.front { 
