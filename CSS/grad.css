@@ -148,6 +148,7 @@ body .projectBoxes h3{
 .card>img.front { z-index: 1; }
 
 .card>img.back, div#flip:target img.front {
+	transition: opacity 2s ease-in;
   z-index: 0;
 }
 
@@ -155,7 +156,7 @@ div#flip:target a.flip { display: none; }
 div#flip:target a.unflip { display: block; }
 
 div#flip:target img.back {
-  transform: rotateY(0deg);
+  transition: opacity 2s ease-in;
   z-index: 1;
 }
 
