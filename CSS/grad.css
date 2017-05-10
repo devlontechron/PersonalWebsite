@@ -114,16 +114,16 @@ body .projectBoxes h3{
 
 
 .card-container {
-  height: 150px;
+  height: 50%;
   perspective: 600;
   position: relative;
-  width: 150px;
+  width: 50%;
 }
 .card {
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
+  transition: all 1s;
   width: 100%;
 }
 .card:hover {
