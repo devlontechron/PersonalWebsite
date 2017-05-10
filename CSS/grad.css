@@ -121,7 +121,7 @@ body .projectBoxes h3{
   padding-right:45%;
   width: 10%;
 	
-  background: rgb(51,0,111);
+  background: blue ; 
   border: 1px solid black;
   border-radius: 0px;
   color: rgb(232,211,162);
@@ -138,6 +138,7 @@ body .projectBoxes h3{
 }
 
 .card>img { 
+-webkit-transform: translateZ(0);
   position: absolute;
   width: 50%;
   -webkit-transition: all 1s;
@@ -150,6 +151,7 @@ body .projectBoxes h3{
 
 .card>img.back, div#flip:target img.front {
   -webkit-transform: rotateY(-180deg);
+	-webkit-transform: translateZ(0);
    z-index: 0;
  
 }
@@ -159,6 +161,7 @@ div#flip:target a.unflip { display: block; }
 
 div#flip:target img.back {
   -webkit-transform: rotateY(0deg);
+	-webkit-transform: translateZ(0);
   z-index: 1;
 }
 
