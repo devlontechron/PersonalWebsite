@@ -24,3 +24,7 @@ body> .SubBoxes> .div> h1,h4, h3, p{
 	font-family: "Helvetica";
 
 }
+
+.welcomePic {
+	width:99%;
+}
