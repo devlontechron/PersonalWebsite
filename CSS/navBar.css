@@ -1,16 +1,12 @@
 .boxed {
 	font-family: Helvetica;
-	border: 10px solid black;
-    	border-radius: 8px;
     	background: url("../media/paper.jpg") gray;
-
 	background-size: cover;
 	background-position: right;
 	background-repeat: no-repeat;
-	width: 97%;
+	width: 100%;
     	padding: 0px;
 	margin: auto;
-	padding-top: -5px;
 }
 
 div.top{
