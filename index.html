@@ -7,24 +7,34 @@
 </head>
 	
 <body>	
-
+	<div id="header">
 		<div class = "top">
-			<img src="media/picBW (3).jpg">
-			<h1>  Devin Joseph Durham</h1>
+			<img id="pic" src="media/picBW (3).jpg">
+			<h1>  DevinQ Joseph Durham</h1>
 			<h3>  Computer Scientist / Academic / Film & Arts Enthusiast / Explorer</h3>
 			<h4> "Empower your colleagues and change the world"</h4>
 			
 		</div>
-			
-			
+	</div>		
+	
    		<div w3-include-html="../html/navBar.html"></div> 
 			
 		<script>
   			  w3.includeHTML();
   		</script>
       
-	
-	
+<script>
+var right=document.getElementById('header').style.height;
+var left=document.getElementById('pic').style.height;
+if(left>right)
+{
+    document.getElementById('header').style.height=left;
+}
+else
+{
+    document.getElementById('pic').style.height=right;
+}
+</script>
 	
 	
 	<div class = "SubBoxes">
