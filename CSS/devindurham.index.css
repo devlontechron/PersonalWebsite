@@ -1,5 +1,5 @@
 body {
-   background-image: url("../media/pictures/WP_20161026_02_32_27_Pro.jpg");
+   background-color: dimGray;
 
    background-size: cover;
    background-position: center center;
@@ -13,8 +13,7 @@ body {
 	display: block;
 	text-shadow:1px 2px 4px white;
 	background-color: dimGray;
-	padding-bottom: 100%;
-    margin-bottom: -100%;
+   	 margin-bottom: -100%;
 	
 }
 
