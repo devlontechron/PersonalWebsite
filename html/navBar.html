@@ -1,5 +1,5 @@
 <style>
-ul{
+#navy{
     clear: left;
     font-family: Helvetica;	
     border: 10px solid black;
@@ -9,7 +9,7 @@ ul{
     overflow: hidden;
     background-color: black;
 }
-li{
+#navy>li{
 	float: left;
 }
     li a {
@@ -19,7 +19,7 @@ li{
     padding: 7px 16px;
     text-decoration: none;
 }
-li a:hover:not(.active) {
+#navy>li a:hover:not(.active) {
     background-color: grey;
 }
 .active {
@@ -28,7 +28,8 @@ li a:hover:not(.active) {
    
  </style>
 
-<ul>
+
+<ul id="navy">
     <li><a class="active" href="index">Home</a></li>
     <li><a href="../html/about">About</a></li>
     <li><a href="../html/resume">Resume</a></li>
