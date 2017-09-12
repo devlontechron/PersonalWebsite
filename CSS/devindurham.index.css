@@ -8,7 +8,7 @@ body {
    font-family: "Arial";
 }
 
-div.top{
+top{
 	top: 50%;
 	bottom: 50%
 	display: block;
@@ -16,7 +16,7 @@ div.top{
 	
 }
 
-body> .boxed> .top> img{
+top> img{
 	height: 15%;
 	width: 15%;
 	padding-right: 25px;
