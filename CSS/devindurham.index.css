@@ -18,8 +18,9 @@ body {
 
 top> img{
 	align: left;
-	height: 100%;
+	height: auto;
 	width: auto;
+	max-width: 30%;
 	
 
 body> .SubBoxes> div{
