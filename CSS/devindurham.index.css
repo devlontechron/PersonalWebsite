@@ -9,11 +9,12 @@ body {
 }
 
 .top{
-	top: 50%;
-	bottom: 50%
+	
 	display: block;
 	text-shadow:1px 2px 4px white;
 	background-color: dimGray;
+	padding-bottom: 100%;
+    margin-bottom: -100%;
 	
 }
 
@@ -24,6 +25,8 @@ body {
 	min-height: 150px;
 	min-width: 150px; 
 	float: left;
+	padding-bottom: 100%;
+    margin-bottom: -100%;
 }
 
 .SubBoxes>div{
