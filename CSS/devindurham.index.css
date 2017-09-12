@@ -22,7 +22,7 @@ body {
 	width: 5%;
 	
 
-body> .SubBoxes> div{
+.SubBoxes> div{
 	border: 10px solid black;
 	border-radius: 0px;
 	width: 67%;
