@@ -23,9 +23,10 @@ body {
 	padding-right: 25px;
 	min-height: 150px;
 	min-width: 150px; 
+	float: left;
 }
 
-.SubBoxes{
+.SubBoxes>div{
 	border: 10px solid black;
 	border-radius: 0px;
 	width: 67%;
