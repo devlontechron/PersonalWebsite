@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
+
    <head> 
       <meta content = "text/html; charset = utf-8" http-equiv = "Content-Type" /> 
       <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+      <script src="jquery.js"></script> 
+      <script> 
+    $(function(){
+      $("#includedContent").load("HTML/CustomElements/NavBar.html"); 
+    });
+    </script> 
       
    </head> 
    
@@ -18,11 +24,11 @@
       <h5>Your passion will change the world</h5>
       </div>
       
-      <div w3-include-html="HTML/CustomElements/NavBar.html"></div>
+      <div id="includedContent"></div>
       
       <script>
   			  w3.includeHTML();
-  		</script>
+  	  </script>
    
    </body> 
 </html> 
