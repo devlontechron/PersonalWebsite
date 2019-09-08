@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>CSS Accordion Slider</title>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<style>
 .accordion {
     -webkit-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
     -moz-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
@@ -40,7 +33,7 @@
 .accordion-title,
 .accordion-select  {
     background-color: #ed2945;
-    color: #ffffff;
+    color: #000000;
     width: 30px;
     height: 290px;
     font-size: 20px;
@@ -68,7 +61,7 @@
 } 
 
 .accordion-content {
-    background-color: #ffffff;
+    background-color: #000000;
     color: #C22439;
     height: 222px;
     width: 782px;
@@ -81,10 +74,10 @@
     margin-bottom: 3px;
 } 
 
-/* Do not change following properties, they aren't 
-generated automatically and are common for each slider. */
+
 .accordion {
     overflow: hidden;
+    transform: skew(-10deg);
 }
 
 .accordion > ul {
@@ -128,67 +121,3 @@ generated automatically and are common for each slider. */
     -moz-transition: margin 0.3s ease 0.1s;
     -webkit-transition: margin 0.3s ease 0.1s;
 }
-</style>
-</head>
-<body>
- <div class="accordion">
-    <ul>
-         <li>
-            <input type="radio" name="select" class="accordion-select" checked />
-            <div class="accordion-title">
-                <span>Title</span>
-            </div>
-            <div class="accordion-content">
-                Content
-            </div>
-            <div class="accordion-separator"></div>
-        </li> 
-         <li>
-            <input type="radio" name="select" class="accordion-select" />
-            <div class="accordion-title">
-                <span>Title</span>
-            </div>
-            <div class="accordion-content">
-                Content
-            </div>
-            <div class="accordion-separator"></div>
-        </li> 
-         <li>
-            <input type="radio" name="select" class="accordion-select" />
-            <div class="accordion-title">
-                <span>Title</span>
-            </div>
-            <div class="accordion-content">
-                Content
-            </div>
-            <div class="accordion-separator"></div>
-        </li> 
-         <li>
-            <input type="radio" name="select" class="accordion-select" />
-            <div class="accordion-title">
-                <span>Title</span>
-            </div>
-            <div class="accordion-content">
-                Content
-            </div>
-            <div class="accordion-separator"></div>
-        </li> 
-         <li>
-            <input type="radio" name="select" class="accordion-select" />
-            <div class="accordion-title">
-                <span>Title</span>
-            </div>
-            <div class="accordion-content">
-                Content
-            </div>
-            <div class="accordion-separator"></div>
-        </li> 
-    </ul>
-</div> 
-<div style="text-align:center;margin-top:50px;">
-    <a href="https://accordionslider.com/" style="color:#568EEA;text-decoration:none;">
-        Css Accordion Slider Generator
-    </a>
-</div>
-</body>
-</html> 

@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 67%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+h3{
+    padding-left: 2%; 
+}
+
+p{
+    padding-left: 5%;
+    text-indent: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.projectBoxes{
+    background-image: linear-gradient(rgb(0,255,0), rgb(0, 82, 18));
+}
+
+.container{
+    margin: 1%;
+    background: black;
+    padding-left: 1%;
+    padding: 3%;
+}
+
+@media screen and (max-device-width: 800px) {
+    body {
+        width: 100%;
+    }
+    .container{
+        margin: 3%;
+    }
+}
+
+  @media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    .container{
+        margin: 3%;
+    }
+    
+}
