@@ -1,123 +1,17 @@
-.accordion {
-    -webkit-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
-    -moz-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
-    box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
-    font-family: Arial, Helvetica, sans-serif;
-    border-color: #a12a2a;
-    border-style: solid;
-    border-width: 0px;
-    border-radius: 0px;
-    margin: 0 auto;
-    height: 290px;
-    width: 1015px;
+body{
+    background: black;
+    color: white;
+    background-image: url('https://thumbs.gfycat.com/HoarseAfraidDuck-size_restricted.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.accordion > ul > li,
-.accordion-title,
-.accordion-content,
-.accordion-separator {
-    float: left;
-} 
-
-.accordion > ul > li {
-    background-color: #b62a2a;
-    margin-right: -850px;
-    margin-bottom: -0px;
-}
-
-.accordion-select:checked ~ .accordion-separator {
-    margin-right: 850px;
-    margin-bottom: 0px;
-} 
-
-.accordion-title,
-.accordion-select  {
-    background-color: #ed2945;
-    color: #000000;
-    width: 30px;
-    height: 290px;
-    font-size: 20px;
-}
-
-.accordion-title span {
-    margin-bottom: 15px; 
-    margin-left: 20px;
-} 
-
-.accordion-select:hover ~ .accordion-title,
-.accordion-select:checked ~ .accordion-title {
-    background-color: #c22439;
-} 
-
- .accordion-title span  {	
-    transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -ms-writing-mode: lr-bt;
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    margin-left: 0px;
-    line-height: 30px;
-} 
-
-.accordion-content {
-    background-color: #000000;
-    color: #C22439;
-    height: 222px;
-    width: 782px;
-    padding: 34px;
-}
-
-.accordion-title,
-.accordion-select:checked ~ .accordion-content {
-    margin-right: 3px;
-    margin-bottom: 3px;
-} 
-
-
-.accordion {
-    overflow: hidden;
-    transform: skew(-10deg);
-}
-
-.accordion > ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 101%;
-}
-
-.accordion > ul > li,
-.accordion-title {
-    position: relative;
-}
-
-.accordion-select {
-    cursor: pointer;
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    margin: 0;
-    z-index: 1;
-}
-
-.accordion-title span {
+object{
     display: block;
-    position: absolute;
-    bottom: 0px;
+    position: fixed; /* or absolute */
     width: 100%;
-    white-space: nowrap;
+    height: 100%;
+    margin: -8px;
+    
 }
 
-.accordion-content {
-    position: relative;
-    overflow: auto;
-}
-
-.accordion-separator {
-    transition: margin 0.3s ease 0.1s;
-    -o-transition: margin 0.3s ease 0.1s;
-    -moz-transition: margin 0.3s ease 0.1s;
-    -webkit-transition: margin 0.3s ease 0.1s;
-}
