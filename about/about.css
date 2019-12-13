@@ -12,6 +12,20 @@ body{
     margin: 1%;
 }
 
+.past img{
+    max-width:35%;
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+.values img{
+    max-width:50%;
+    width: auto;
+    height: auto;
+    float: center;
+}
+
 .container{
     margin: 1%;
     background: black;
