@@ -7,6 +7,25 @@ body{
     margin-top: 3%;
 }
 
+
+.title{
+    margin-bottom: 50px;
+    color: rgb(153, 0, 255);
+}
+.title h1{
+    float: left;
+    margin: auto;
+
+}
+
+.home{
+    width: 75px;
+    margin-top: -10px;
+
+    float: right;
+    display: block;
+}
+
 h1{
     text-decoration: underline;
 }

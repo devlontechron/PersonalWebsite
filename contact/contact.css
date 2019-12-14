@@ -3,11 +3,31 @@ body{
     background: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    height:100vh;
     width: 67%;
     margin: auto;
-    height:100vh;
+    margin-top: 3%;
 
 }
+
+.title{
+    margin-bottom: 50px;
+}
+
+.title h1{
+    float: left;
+    margin: auto;
+
+}
+
+.home{
+    width: 75px;
+    margin-top: -10px;
+
+    float: right;
+    display: block;
+}
+
 a{
     color: rgb(255,255,0);
 }
@@ -15,6 +35,7 @@ a{
 h1{
     padding-left: 3%;
     text-decoration: underline;
+    color: rgb(255,255,0);
 }
 
 h3{
@@ -22,6 +43,7 @@ h3{
     margin-top: 30px;
     padding-bottom: 0;
     margin-bottom: 0; 
+    color: rgb(255,255,0);
 }
 p{
     padding-top: 0;
@@ -42,7 +64,8 @@ p{
 	background-color: black;
     margin: center;
 	margin-top: 25px;
-	padding: 0px;
+    padding-left: 1%;
+    padding: 3%;
 }
 
 table {
@@ -65,19 +88,7 @@ tr:nth-child(even) {
 }
 
 @media screen and (max-device-width: 800px) {
-    h1{
-        font-size: 50px;
-    }
-    h3{
-        font-size: 40px;
-    }
-    p{
-        font-size: 30px;
-    }
-    td{
-        height: 100px; 
-        font-size: 30px;  
-    }
+
     body {
         width: 100%;
     }
@@ -87,19 +98,7 @@ tr:nth-child(even) {
 }
 
   @media screen and (max-width: 800px) {
-    h1{
-        font-size: 50px;
-    }
-    h3{
-        font-size: 40px;
-    }
-    p{
-        font-size: 30px;
-    }
-    td{
-        height: 100px; 
-        font-size: 30px;  
-    }
+
     body {
         width: 100%;
     }
