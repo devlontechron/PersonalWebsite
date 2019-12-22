@@ -8,13 +8,13 @@ body{
 }
 
 .title{
-    margin-bottom: 50px;
+    margin-bottom: 10%;
 }
 
 .title h1{
+    width: 100%;
     float: left;
-    margin: auto;
-
+    margin: 0;
 }
 
 .home{
@@ -61,7 +61,7 @@ h1{
 }
 
 h2{
-    padding-left: 2%; 
+
     color: rgb(0, 100, 200);
 }
 

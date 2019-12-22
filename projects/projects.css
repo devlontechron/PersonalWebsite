@@ -15,7 +15,7 @@ body {
   }
 
 .title{
-    margin-bottom: 50px;
+    margin-bottom: 10%;
 }
 
 .title h1{
@@ -28,6 +28,7 @@ body {
 .title h5{
     float: left;
     margin: 0;
+    width: 100%;
 
 }
 
