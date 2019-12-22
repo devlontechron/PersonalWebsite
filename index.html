@@ -1,18 +1,43 @@
 <html>
 <link rel="stylesheet" href="index.css">
-<body>
-       
-    <div class= container>
-        <div class="center">
-            <h1>Devin Durham</h1>
-            <p>Empower each other<br>Change the world</p>
-        </div>
-        <a class="about" href="about/about.html">About</a>            
-        <a class="projects" href="projects/projects.html">Projects</a>
-        <a class="blog" href="blog/blog.html">Social Feed</a>    
-        <a class="media" href="media/media.html">Media</a>
-        <a class="contact" href="contact/contact.html">Contact</a>
-    </div>
 
-</body>
+    <body>    
+        <div class="accordion">
+            <input type="radio" name="select" class="accordion-select" checked />
+            <div class="accordion-title"><h2>Devin Durham</h2></div>
+            <div class="accordion-content" id="welcome">
+                <div class="titlecard">
+                    <h2>Devin Durham<h2>
+                    <h3>Academic, Engineer, Scientist, Artist</h3>
+                </div>
+            </div> 
+            
+            <input type="radio" name="select" class="accordion-select" />
+            <div class="accordion-title"><h2>About</h2></div>
+            <div class="accordion-content">
+                <object data="/about/about.html"></object>
+            </div> 
+            
+            <input type="radio" name="select" class="accordion-select" />
+            <div class="accordion-title"><h2>Projects</h2></div>
+            <div class="accordion-content">
+                <object data="/projects/projects.html"></object>
+            </div> 
+
+            <input type="radio" name="select" class="accordion-select" />
+            <div class="accordion-title"><h2>Media & Social</h2></div>
+            <div class="accordion-content">
+                <object data="/media/media.html"></object>
+            </div> 
+
+            <input type="radio" name="select" class="accordion-select" />
+            <div class="accordion-title"><h2>Contact</h2></div>
+            <div class="accordion-content">
+                <object data="/contact/contact.html"></object>
+            </div>  
+
+        </div> 
+
+    </body>
+
 </html>

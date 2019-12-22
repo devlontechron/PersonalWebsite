@@ -1,12 +1,19 @@
 body{
-    background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    width: 67%;
     margin: auto;
     margin-top: 3%;
     
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+body {
+    -ms-overflow-style: none;
+  }
+
 .title{
     margin-bottom: 50px;
 }
@@ -33,24 +40,23 @@ body{
 }
 
 a{
-    color: rgb(0,255,0);
+    color: rgb(0,100,0);
 }
 
 h1{
     text-decoration: underline;
     float: left;
-    color: rgb(0,255,0);
+    color: rgb(0,150,0);
 }
 
 h5{
-    float: right;
     line-height: 50px;
 
 }
 
 h3{
     padding-left: 2%; 
-    color: rgb(0,255,0);
+    color: rgb(0,150,0);
 }
 
 p{
@@ -62,9 +68,6 @@ p{
     margin-bottom: 0px;
 }
 
-.projectBoxes{
-    background-image: linear-gradient(rgb(0,255,0), rgb(0, 82, 18));
-}
 
 .osv img{
     max-height: 250px;
@@ -89,7 +92,7 @@ p{
 
 .container{
     margin: 1%;
-    background: black;
+
     padding-left: 1%;
     padding: 3%;
 }
