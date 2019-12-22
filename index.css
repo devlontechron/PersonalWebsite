@@ -6,7 +6,11 @@ body {
   background-image: url('https://thumbs.gfycat.com/HoarseAfraidDuck-size_restricted.gif');
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 0;
 }  
+
+
 
 .accordion-title {
   position: relative;
@@ -29,13 +33,13 @@ body {
 }
 
 .accordion-select:checked + .accordion-title + .accordion-content {
-  margin-bottom: 0;
-  margin-right: 0;
-  visibility: visible;
+  
+  margin-right: 0%;
+
 }
 
 .accordion-select:not(:checked) + .accordion-title + .accordion-content{
-  visibility: hidden;
+
 }
 
 
@@ -44,84 +48,138 @@ body {
 .accordion {
   border-right-color: rgb(0, 0, 0);
   border-style: solid;
-  border-width: 1px;
+  border-width: 3px;
   flex-direction: row;
-  height: 95%;
-  width: 80%;
+  height: 101%;
+  width: 85%;
   box-sizing: border-box;
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
   margin: auto;
-  margin-top: 1%;
   box-shadow:2px 4px 10px rgba(0, 0, 0, 0.8);
   transform: skewX(-15deg);
-  background-color: rgb(0,0,0,.75);
+  
 } 
 
 .accordion-select {
   cursor: pointer;
- 
   opacity: 0;
   z-index: 1;
   background:rgba(0, 0, 0, 1);
-  margin-bottom: -10%;
-  margin-right: -10%;
+  margin-bottom: -5%;
+  margin-right: -5%;
 }
 
 .accordion-title,
 .accordion-select  {
   background-color:rgba(0, 0, 0, 1);
   color: rgb(250, 250, 250);
-  width: 10%;
+  width: 5%;
   height: 100%;
-  font-size: 15px;
+  font-size: 1em;
   border-color: rgb(250, 250, 250);
-  border-left: 1px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  text-shadow: 2px 2px #000000;
   
 }
 
 .accordion-select:hover + .accordion-title,
 .accordion-select:checked + .accordion-title {
-  background-color:rgb(10, 17, 119);
+  background-color:rgb(50, 50, 50);
 } 
-
-.accordion input:nth-child(3):hover  + .accordion-title,
-.accordion-select:nth-child(3) + .accordion-title {
-  background-color:rgba(250, 0, 0, 1);
-} 
-
-.accordion-select:hover + .accordion-title {
-  background-color:rgb(10, 119, 19);
-} 
-
-.accordion-select:nth-child(1):checked{
-  background: blueviolet;
-}
 
 .accordion-content {
   color: rgb(250, 250, 250);
   height: 100%;
-  
   margin: auto;
-  margin-bottom: 0;
-  margin-right: calc(-1 * calc(100% - 195px));
-  padding: 30px;
-  width: calc(100% - 195px);
+  margin-right: -79%; 
+  width: 90%;
   box-sizing: border-box;
   overflow: auto;
   position: relative;
   transition: margin 0.3s ease 0.1s;
+  background-color: rgb(0,0,0,1);
 } 
 
+#welcome{
+  background-color: rgb(0,0,0,.5); 
+}
+
+.titlecard{
+  width: 90%;
+  margin: auto;
+  margin-top: 25%;
+  transform: skewX(15deg);
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 5px 1px #000000;
+  text-decoration: underline;
+}
 
 object{
   display: block;
   transform: skewX(15deg);
-  width: 80%;
+  width: 70%;
   height: 100%;
   margin: auto;
   text-align: center;
 }
 
 
+  
+@media screen and (max-device-width: 800px) {
+  .accordion {
+    width: 95%;
+    transform: skewX(0deg);
+    
+  } 
+  object{
+    transform: skewX(0deg);
+    width: 95%;
+  }
+  .titlecard{
+    transform: skewX(0deg);
+  }
+
+  .accordion-select {
+    margin-bottom: -30%;
+    margin-right: -30%;
+  }
+  .accordion-content {
+    margin-right: -10%; 
+    width: 10%;
+  }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+  .accordion {
+    transform: skewX(0deg);
+    width: 100%;
+  } 
+  object{
+    transform: skewX(0deg);
+    width: 90%;
+  }
+  .titlecard{
+    transform: skewX(0deg);
+  }
+  .accordion-select {
+    margin-right: -10%;
+  }
+
+
+  .accordion-content {
+    margin-right: -60%; 
+    width: 100%;
+  }
+
+  .accordion-title,
+  .accordion-select  {
+    width: 15%;
+    
+  }
+
+}
