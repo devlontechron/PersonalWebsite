@@ -1,0 +1,215 @@
+body{
+    background-image: url("resources/snowflakes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family:  "Comic Sans MS", Helvetica, sans-serif;
+    color: rgb(250,250,250,1);
+    letter-spacing: 2px;
+    margin: 0;
+    text-shadow: -2px -1px 5px  rgb(0,0,0,1);
+    min-width: 300px;
+    font-size: 1.5em;
+}
+
+
+.titleBar{
+    width: 100%;
+    background-color: rgb(0,100,0,.95);
+    text-align: center;
+    display: block;
+}
+
+.titleBar h1{
+    display: inline;
+}
+
+.titleBar .menu{
+   display: none;
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+.menuCheck {
+    background-color: red;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 1;
+        height: 50px;
+        width: 50px;
+
+
+}
+
+
+.Leaders{
+    margin: auto;
+    text-align: center;
+}
+
+.currLeader{
+    width: 30%;
+    display: inline-block;
+}
+
+.name{
+    font-family:  impact, Helvetica, sans-serif;
+    color: rgba(0,200,0,.85);
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px  rgb(0,0,0,1);
+    -webkit-text-stroke: 1.25px black;
+}
+
+.score{
+    text-shadow: -2px -1px   rgb(0,0,0,1);
+    border: 3px solid rgb(250,250,250,1);
+    background-color: rgb(0,100,0,.95);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    line-height: 50px;
+}
+
+.words{
+    width: 90%;
+    margin: auto;
+    border: 3px solid rgb(250,250,250,1);
+}
+
+table{
+    width: 100%;
+    background-color: rgb(0,100,0,.95);
+    overflow: hidden;
+    text-align: center;
+}
+
+table td{
+    border: 1px solid;
+
+}
+
+table th{
+    text-decoration: underline;
+}
+
+
+footer{
+    float: left;
+    margin: 0;
+    background-color: rgb(0,100,0,.95);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid;
+}
+
+footer ul{
+    width: 100%;
+    margin: auto;
+}
+
+footer li{
+
+    display: inline-block;
+    padding-left: 20%;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-device-width: 800px) {
+    header{
+        display: inline;
+        background-color: rgb(0,100,0,.95);
+    }
+    
+    .score{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        
+    }
+    table{
+        font-size: 1.5em;
+    }
+
+    .name{
+        font-size: 2em;
+        margin-top: 1%;
+    }
+
+    footer{
+        visibility: hidden;
+    }
+}
+  
+  @media screen and (max-width: 1000px) {
+    .titleBar{
+        width: 100%;
+        background-color: rgb(0,100,0,.95);
+        text-align: center;
+        display: block;
+    }
+
+    .titleBar h1{
+        display: inline;
+    }
+
+    .titleBar .menu{
+       display: inline;
+       float: right;
+    }
+
+    .menu li{
+        border: 2px solid rgb(250,250,250,1);
+        margin: auto;
+    }
+
+    .menu input:checked +ul {
+        background-color: rgb(0,100,0,.95);
+        list-style-type: none;
+        z-index: 1;
+        margin-left: -100%;
+        padding: 0;
+        padding-top: 50%;
+        text-align: center;
+        opacity: 1;
+        
+    }
+    .menu input:not(:checked) +ul {
+        margin: -100%;
+        padding: -100%;
+        opacity: 0;
+        
+    }
+
+    .score{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        
+    }
+    table{
+        font-size: 1.5em;
+    }
+
+    .name{
+        font-size: 2em;
+        margin-top: 1%;
+    }
+
+    footer{
+        visibility: hidden;
+    }
+}

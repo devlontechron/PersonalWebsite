@@ -38,11 +38,6 @@ body {
 
 }
 
-.accordion-select:not(:checked) + .accordion-title + .accordion-content{
-
-}
-
-
 /* Generated styles starts here */
 
 .accordion {

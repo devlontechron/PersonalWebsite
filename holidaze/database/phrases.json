@@ -1,0 +1,32 @@
+{
+    "phrases":[
+        {
+            "phrase":"Angela Cries",
+            "count":12
+        },
+        {
+            "phrase":"Angela \"you know {random person name}\"",
+            "count":12
+        },
+        {
+            "phrase":"Hannah Snorts",
+            "count":12
+        },
+        {
+            "phrase":"Devin mention computers/T-Mobile",
+            "count":12
+        },
+        {
+            "phrase":"Cathy Sings",
+            "count":12
+        },
+        {
+            "phrase":"Siblings bring up childhood",
+            "count":12
+        },
+        {
+            "phrase":"Robert.",
+            "count":12
+        }
+    ]
+}
