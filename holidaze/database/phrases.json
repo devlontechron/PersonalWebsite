@@ -6,27 +6,27 @@
         },
         {
             "phrase":"Angela \"you know {random person name}\"",
-            "count":12
+            "count":6
         },
         {
             "phrase":"Hannah Snorts",
-            "count":12
+            "count":3
         },
         {
             "phrase":"Devin mention computers/T-Mobile",
-            "count":12
+            "count":4
         },
         {
             "phrase":"Cathy Sings",
-            "count":12
+            "count":5
         },
         {
             "phrase":"Siblings bring up childhood",
-            "count":12
+            "count":10
         },
         {
             "phrase":"Robert.",
-            "count":12
+            "count":9
         }
     ]
 }
