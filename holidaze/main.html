@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="main.css">
     <script src="JS/helper.js"></script>
         
-    <body onload="getTopPhrases()">    
+    <body onload="loadMainData()">    
 
         <div class="titleBar">
             <h1>Holidaze</h1>
@@ -16,39 +16,13 @@
             </div>
         </div>
 
-        <div class="Leaders">
-            <div class="currLeader">
-                <p class=score>8</p>
-                <p class=name>Devin Durham</p>
-            </div>
-            <div class="currLeader">
-                <p class=score>5</p>
-                <p class=name>Hannah Dugan</p>
-            </div>
-            <div class="currLeader">
-                <p class=score>3</p>
-                <p class=name>Brian Coggon</p>
-            </div>
-
-        </div>
-        <div class="words">
-            <table>
+        <div class="Leaders" id="leaders"></div>
+        
+        <div class="words">    
+            <table id="phraseTable">
                 <tr>
                     <th>Phrase</th>
                     <th>Count</th>
-                </tr>
-
-                <tr>
-                    <td>Mom Cries</td>
-                    <td>12</td>
-                </tr>
-                <tr>
-                    <td>UPS Driving</td>
-                    <td>8</td>
-                </tr>
-                <tr>
-                    <td>Lilyanna Cries</td>
-                    <td>6</td>
                 </tr>
 
             </table>

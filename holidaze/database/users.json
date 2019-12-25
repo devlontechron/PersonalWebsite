@@ -1,23 +1,19 @@
 {
     "users":[
         {
-            "firstName":"Devin",
-            "lastName": "Durham",
+            "name":"Devin Durham",
             "score":5
         },
         {
-            "firstName":"Jordan",
-            "lastName": "Durham",
+            "name":"Jordan",
             "score":7
         },
         {
-            "firstName":"Hannah",
-            "lastName": "Dugan",
+            "name":"Hannah",
             "score":2
         },
         {
-            "firstName":"Dana",
-            "lastName": "Coggon",
+            "name":"Dana",
             "score":0
         }
     ]
