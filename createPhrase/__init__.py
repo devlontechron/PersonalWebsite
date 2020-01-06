@@ -34,6 +34,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             )
     else:
         cursor.execute(f"INSERT INTO dbo.phrases (phrase, count) VALUES (\'{newPhrase}\', 0)")
+        cursor.commit()
         return func.HttpResponse(
              "New Account has been added",
              status_code=200
