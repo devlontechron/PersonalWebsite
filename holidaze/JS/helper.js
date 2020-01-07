@@ -1,37 +1,47 @@
 var thisFName = "";
-var thisLName = "";
 var thisScore = 0;
 
 
 function saveName(){
-    var thisFName = document.getElementById("fname").value;
+    thisFName = document.getElementById("fname").value;
 
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST", 'https://hdproc.azurewebsites.net/api/login?code=5idtbN5FwHae6VffSl14MuWtaT0pC2hBlgOeErrF7IEgVpupHrt65w==?name={thisFName}' , true);
+    xmlhttp.open("POST", 'https://hdproc.azurewebsites.net/api/login?code=5idtbN5FwHae6VffSl14MuWtaT0pC2hBlgOeErrF7IEgVpupHrt65w==&name='+thisFName , true);
     xmlhttp.setRequestHeader("Content-Type", "application/json")
     xmlhttp.setRequestHeader("Authorization", "basic")
     xmlhttp.send();
     xmlhttp.onreadystatechange = function(){
         var response = xmlhttp.responseText;
         console.log(response);
-        alert(response) 
-        if(xmlhttp.status == 200){
-            window.location = 'main.html';
+        if (xmlhttp.readyState == 4){
+            alert(response) 
+        
+            if(xmlhttp.status == 200){
+                window.location = 'main.html';
+            }
         }
     }
 }
 
 
-function saveNewPhrase(phase){
+function saveNewPhrase(){
+    var newPhrase = prompt("Enter a new phrase:", "");
+
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST", 'https://hdproc.azurewebsites.net/api/login?code=5idtbN5FwHae6VffSl14MuWtaT0pC2hBlgOeErrF7IEgVpupHrt65w==?name='+phase , true);
+    xmlhttp.open("POST", 'https://hdproc.azurewebsites.net/api/createPhrase?code=H16r8CUTl56FyAWPsLogJSJZpKM6MaMJajinyY9pPXpUjhrtLWmd0Q==&phrase='+newPhrase , true);
     xmlhttp.setRequestHeader("Content-Type", "application/json")
     xmlhttp.setRequestHeader("Authorization", "basic")
     xmlhttp.send();
     xmlhttp.onreadystatechange = function(){
         var response = xmlhttp.responseText;
         console.log(response);
-        alert(response) 
+        if (xmlhttp.readyState == 4){
+            alert(response) 
+        
+            if(xmlhttp.status == 200){
+                window.location = 'main.html';
+            }
+        }
     }
 }
 
