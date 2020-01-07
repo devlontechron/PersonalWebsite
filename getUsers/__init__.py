@@ -10,10 +10,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     
     responseData = dict()
 
-    #PLEASE STARILIZE YOUR SQL
     conn = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};Server=tcp:holidaze.database.windows.net,1433;Database=users;Uid=devlontecron;Pwd=LaSalle!0;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;')
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM dbo.phrases")
+    cursor.execute("SELECT * FROM dbo.phrases ORDER BY \"count\" DESC")
     data = cursor.fetchall()
 
     phraseDic = {}
@@ -29,7 +28,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     conn = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};Server=tcp:holidaze.database.windows.net,1433;Database=users;Uid=devlontecron;Pwd=LaSalle!0;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;')
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM dbo.users")
+    cursor.execute("SELECT * FROM dbo.users ORDER BY \"score\" DESC;")
     data = cursor.fetchall()
     
     userList = []
