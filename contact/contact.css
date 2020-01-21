@@ -2,7 +2,7 @@
 body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    height:100vh;
+
     margin: auto;
     margin-top: 3%;
 
@@ -65,7 +65,7 @@ p{
 
 
 .content {
-    height:100vh;
+
     margin: 1%;
     border-radius: 0px;
 
@@ -94,6 +94,11 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background-color: #666464;
 }
+
+.citations{
+    margin-top: 15%;
+}
+
 
 @media screen and (max-device-width: 800px) {
 
