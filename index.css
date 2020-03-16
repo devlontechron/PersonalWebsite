@@ -75,18 +75,18 @@ body {
   cursor: pointer;
   opacity: 0;
   z-index: 1;
-  background:rgba(0, 0, 0, 1);
-  margin-bottom: -5%;
+  background:rgba(0, 0, 0);
+
   margin-right: -5%;
 }
 
 .accordion-title,
 .accordion-select  {
-  background-color:rgba(0, 0, 0, 1);
+  background-color:rgba(0, 0, 0);
   color: rgb(250, 250, 250);
   width: 5%;
   height: 100%;
-  font-size: 1em;
+  font-size: 1.25em;
   border-color: rgb(250, 250, 250);
   border-left: 2px solid;
   border-right: 2px solid;
@@ -106,12 +106,11 @@ body {
   margin-right: -79%; 
   width: 90%;
   box-sizing: border-box;
-  overflow: auto;
   position: relative;
   transition: margin 0.3s ease 0.1s;
   background-color: rgb(0,0,0);
   opacity: 1;
-  overflow: hidden;
+  overflow: auto;
 } 
 
 #welcome{
@@ -141,7 +140,7 @@ object{
 
 
   
-@media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 1000px) {
   .accordion {
     width: 95%;
     transform: skewX(0deg);
