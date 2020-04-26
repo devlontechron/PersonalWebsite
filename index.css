@@ -176,6 +176,10 @@ object{
     padding-top: 0px;
 }
 
+.titlecard{
+  font-size: 4em;
+}
+
   object{
       transform: skewX(0deg);
   }
@@ -222,7 +226,7 @@ object{
 .accordion-title h2 {
   text-align: center;
   transform: skewX(0deg);
-  bottom: -50%;
+  bottom: -20%;
   font-size: 3em;
   
 }
@@ -239,7 +243,7 @@ object{
 }
 
 .accordion-select {
-    margin-bottom: -10%;
+    margin-bottom: -12%;
     margin-top: 0%;
 }
 
