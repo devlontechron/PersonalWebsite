@@ -101,6 +101,16 @@ p{
     float: right;
 }
 
+.covid19 img{
+    max-height: 500px;
+    max-width: 200px;
+    width:auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 15px;
+    float: left;
+}
+
 .container{
     margin: 1%;
 
