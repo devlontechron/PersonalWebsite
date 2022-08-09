@@ -5,6 +5,12 @@ body{
 
     margin: auto;
     margin-top: 3%;
+
+    background-color: black;
+}
+
+a{
+    color: white;
 }
 
 body::-webkit-scrollbar {
