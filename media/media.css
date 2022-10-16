@@ -9,12 +9,17 @@ body{
     background-color: black;
 }
 
-p{
+.subjects div{
     margin: 25px;
     width: 75%;
     border: 5px solid white;
     border-radius: 5px;
-    padding: 50px;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.subjects p{
+    margin-left: 5%;
 }
 
 a{
@@ -31,7 +36,7 @@ body {
 
 .title{
     margin-bottom: 10%;
-    color: rgb(150,0,0);
+    color: rgb(200,0,0);
 }
 
 .title h1{
@@ -50,6 +55,10 @@ body {
 
 h1{
     text-decoration: underline;
+}
+
+h2 {
+    color: rgb(200, 0, 0);
 }
 
 .content{
