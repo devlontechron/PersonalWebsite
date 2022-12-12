@@ -1,0 +1,35 @@
+{
+    "petalsList":[
+        {
+            "petalColor": "Green",
+            "petalContent": "He Loves me.<br><br> More than I can comprehend. Like a blue rose in the dead of winter, unknown of the warmth and comfort he provides me each night. Giving life to my roots and nutrients for my soil, igniting a flame within me to grow to new heights."
+        },
+        {
+            "petalColor": "Red",
+            "petalContent": "He loves me not.<br><br> Because of my sharp thorns underneath, guarding from the past, present, and future, intimidating onlookers with my teeth, and hurting whoever is within reach."
+        },
+        {
+            "petalColor": "Green",
+            "petalContent": "He Loves me.<br><br> Unconditional and constant, like time marching forward.<br>Because as the world turns, so do we in our age. These peddles, however, will never wilt from neglect or fade from the day. They will lie still in patience, content with the recent chapter, and awaiting for a new page."
+        },
+        {
+            "petalColor": "Red",
+            "petalContent": "He Loves me not.<br><br>For it comes at much too high of a cost. My words can be icy, cold hearted, and sometimes double crossed. My passion still fiery, but burns, stings, and exhausts. Lacking a theme, wit, or cleverness, unlike our snowy friend, dear Robert Frost."
+        },
+        {
+            "petalColor": "Green",
+            "petalContent": "He Loves me.<br><br>Because how could you not. Our love is intoxicating, not poison or rot. And it is that moment when I take a sip, that my composure begins to slip. It is our love that is not bounded by the tangible realm of our lives, but rather the exciting ambiguity of what is next, that keeps us tied."
+        },
+        {
+            "isLastpetal": true,
+            "petalColor": "Green",
+            "petalContent": "So my love, I say, to a very select few,<br><br> What scripture, Shakespeare, and even Hebrews try to do,<br> That may the earth, moon, and stars align. <br>So that I may write down, with the correct words, one last line. <br>A confession of affection, and a vulnerable state of mind..."
+        },
+        {
+            "petalColor": "Green",
+            "petalContent": "That I love you not,<br>for the reasons you already knew, <br><br>But rather for the beautiful, organic, and original pieces, that always seem new."
+        }
+    ]
+
+
+}

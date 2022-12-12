@@ -1,0 +1,39 @@
+body{
+    background-repeat: no-repeat;
+    background-image: url(AnimatedRose2.gif);
+    background-position: center;
+    background-color: black;
+    cursor: grab;
+}
+
+.petal {
+    width:1000px;
+    background-color: rgba(0, 126, 0, 0.5);
+    margin: 0 auto;
+    color: white;
+    font-size:25pt;
+    height: 100%;
+    text-align: center;
+    display:none;    
+    font-family: "Papyrus";
+    border-radius: 75%;    
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+
+    animation-name: fadeInOut;
+    animation-duration: 1s;
+}
+
+.petalText{
+    padding-top: 50%;
+}
+
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

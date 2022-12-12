@@ -1,0 +1,45 @@
+<html>
+<link rel="stylesheet" href="JRIndex.css">
+<title>He Loves Me</title>
+
+<body onLoad='onLoad()', onclick="showPetals()"> 
+
+<div class="petal" >
+    <p class="petalText">Test Stuff</p>
+    <p class="petalCount"></p>
+</div>
+    
+</body>
+
+<script>
+    var count = 0
+    var myData;
+    const elem = document.getElementsByClassName("petal")[0];
+    
+    function showPetals() {
+       
+      const elem = document.getElementsByClassName("petal")[0];   
+
+      if (elem.style.display == "none" && count<myData.petalsList.length){
+        
+        const petalCount = document.getElementsByClassName("petalCount")[0];  
+        const petalText = document.getElementsByClassName("petalText")[0];   
+        
+        petalCount.innerHTML = (count+1)+"/"+ myData.petalsList.length;
+        petalText.innerHTML = myData.petalsList[count].petalContent
+        
+        elem.style.display = "block";
+        count++;            
+      
+      }else{
+        elem.style.display = "none";
+      }
+
+    }
+
+    async function onLoad(){
+        myData = await fetch('JRAttributes.json').then(response => response.json())
+        elem.style.display = "none";
+    }
+
+</script>
