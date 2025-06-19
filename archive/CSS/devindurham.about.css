@@ -1,0 +1,35 @@
+body{
+   background-image: url("../media/pictures/WP_20161026_02_32_27_Pro.jpg");
+   font-family: Helvetica;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+
+
+.aboutBox {
+	border: 10px solid black;
+    	border-radius: 0px;
+	background-color: white;
+    	width: 67%;
+    	margin: auto;
+	margin-top: 25px;
+	padding: 0px;
+}
+
+
+body> .aboutBox> h1{
+	  padding: 20px;
+    margin: auto;
+}
+
+body> .aboutBox> h3{
+	  padding: 20px;
+    margin: auto;
+}
+
+body> .aboutBox> p{
+	  padding: 20px;
+    margin: auto;
+}

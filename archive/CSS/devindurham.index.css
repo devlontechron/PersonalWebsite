@@ -1,0 +1,49 @@
+body {
+   background-color: dimGray;
+
+   background-size: cover;
+   background-position: center center;
+
+   background-attachment: fixed;
+   font-family: "Arial";
+}
+
+.top{
+	
+	display: block;
+	text-shadow:1px 2px 4px white;
+	background-color: dimGray;
+   	
+	
+}
+
+.top> img{
+	height: 15%;
+	width: 15%;
+	padding-right: 25px;
+	min-height: 150px;
+	min-width: 150px; 
+	float: left;
+	padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.SubBoxes>div{
+	border: 10px solid black;
+	border-radius: 0px;
+	width: 67%;
+	margin: auto;
+	margin-top: 25px;
+	background-color: white;
+
+}
+
+.SubBoxes> .div> h1,h4, h3, p{
+	margin-left: 15px;
+	margin-right: 15px;
+	color: black;
+	font-family: "Arial";
+
+}
+
+

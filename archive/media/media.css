@@ -1,0 +1,65 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 3%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+body {
+    -ms-overflow-style: none;
+  }
+
+.title{
+    margin-bottom: 50px;
+    color: rgb(150,0,0);
+}
+
+.title h1{
+    float: left;
+    margin: auto;
+
+}
+
+.home{
+    width: 75px;
+    margin-top: -10px;
+
+    float: right;
+    display: block;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.content{
+    margin: 1%;
+    padding-left: 1%;
+    padding: 3%;
+}
+
+
+
+@media screen and (max-device-width: 800px) {
+    body {
+        width: 100%;
+    }
+    .content{
+        margin: 3%;
+    }
+}
+
+  @media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    .content{
+        margin: 3%;
+    }
+    
+}
